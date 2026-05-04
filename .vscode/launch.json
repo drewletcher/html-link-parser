@@ -1,0 +1,105 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "saxParser",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/test/saxParser.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "saxStream",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/test/saxStream.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "getCells",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/test/getCells.js"
+    },
+    {
+      "type": "node-terminal",
+      "name": "---",
+      "request": "launch"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "HtmlLinkParser",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/test/HtmlLinkParser.test.js"
+    },
+    {
+      "type": "node",
+      "name": "HtmlLinkReader",
+      "program": "${workspaceFolder}/test/HtmlLinkReader.test.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "name": "RowAsObjectTransform",
+      "program": "${workspaceFolder}/test/RowAsObject.test.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node-terminal",
+      "name": "--- hlp",
+      "request": "launch"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld json",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--id=global", "--headers=Greating" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld csv",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--id=cosmic", "--headers=Greating", "--format=csv" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld rows",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--format=rows" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}

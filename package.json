@@ -1,0 +1,33 @@
+{
+  "name": "html-link-parser",
+  "version": "1.2.0",
+  "description": "Parse, search and stream hyperlinks from an HTML document using Node.js and isaacs/sax-js.",
+  "author": "Drew O. Letcher",
+  "license": "MIT",
+  "keywords": [
+    "html",
+    "hyperlinks",
+    "parser"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "lib/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "test": "testrunner.bat"
+  },
+  "bin": {
+    "hlp": "html-link-parser.js",
+    "htmllinkparser": "html-link-parser.js"
+  },
+  "repository": "git@github.com/drewletcher/html-link-parser.git",
+  "homepage": "https://github.com/drewletcher/html-link-parser#readme",
+  "bugs": "https://github.com/drewletcher/html-link-parser/issues",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "jsonc-parser": "^3.3.1",
+    "sax": "github:isaacs/sax-js#semver:1.4"
+  }
+}
