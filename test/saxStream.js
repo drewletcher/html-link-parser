@@ -99,15 +99,7 @@ saxStream.on("script", function (s) {
 
 // pipe is supported, and it's readable/writable
 // same chunks coming in also go out.
-/*
-fs.createReadStream("./test/data/html/texas_jan2024.shtml")
+
+fs.createReadStream("./test/data/html/helloworld.html")
   .pipe(saxStream)
   .pipe(fs.createWriteStream("./test/output/sax/saxStream.html"));
-*/
-/*
-// pipe is supported, and it's readable/writable
-// same chunks coming in also go out.
-fs.createReadStream("https://www.census.gov/library/reference/code-lists/ansi.html")
-.pipe(saxStream)
-.pipe(fs.createWriteStream("./test/output/sax/saxStream.html"));
-*/

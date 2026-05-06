@@ -48,9 +48,9 @@ parser.onend = function () {
 
 // parser.write('<xml>Hello, <who name="world">world</who>!</xml>');
 // parser.close();
-/*
+
 (async () => {
-  let fh = await fs.open("./test/data/html/texas_jan2024.shtml", "r")
+  let fh = await fs.open("./test/data/html/helloworld.html", "r")
 
   while (true) {
     let { bytesRead, buffer } = await fh.read();
@@ -63,4 +63,3 @@ parser.onend = function () {
   await fh.close();
   parser.close();
 })();
-*/

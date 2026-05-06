@@ -73,7 +73,7 @@
       "request": "launch",
       "name": "hlp helloworld json",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--id=global", "--headers=Greating" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--id=global" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
@@ -84,7 +84,7 @@
       "request": "launch",
       "name": "hlp helloworld csv",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--id=cosmic", "--headers=Greating", "--format=csv" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=BigBang!", "--format=csv" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"

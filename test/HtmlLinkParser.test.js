@@ -36,8 +36,6 @@ async function test(options) {
 }
 
 (async () => {
-  if (await test({ url: "./test/data/html/helloworld.html", id: "global"})) return 1;
-
-  if (await test({ data: "./test/data/html/helloworld.html", id: "cosmic" })) return 1;
-
+  if (await test({ url: "./test/data/html/helloworld.html", href: "world"})) return 1;
+  if (await test({ data: "./test/data/html/helloworld.html", text: "Universe" })) return 1;
 })();

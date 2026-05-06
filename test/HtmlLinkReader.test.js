@@ -36,7 +36,5 @@ async function test(options) {
 
 (async () => {
   if (await test({ url: "./test/data/html/helloworld.html", id: "global" })) return 1;
-
-  if (await test({ data: "./test/data/html/helloworld.html", id: /co..ic/ })) return 1;
-
+  if (await test({ data: "./test/data/html/helloworld.html", text: /.*[uU]niverse.*/ })) return 1;
 })();

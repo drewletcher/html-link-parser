@@ -1,28 +1,26 @@
 /**
  * test/saxStream
  *
- * Test SAX.js stream.
+ * Test SAX.js stream. This is a test of the sax library, not of the HtmlLinkParser,
+ * but it was useful to write this to understand how to use sax for parsing HTML hyperlinks.
  */
 
 import sax from "sax";
 import fs from "node:fs";
 
 var output = fs.openSync("./test/output/sax/getCells.json", "w");
-fs.writeSync(output, "[\n");
-
-//// table processing
-var isTable = false;
-var isRow = false;
-var isCell = false;
-var cellText = "";
-var row = [];
-var firstRow = true;
+//fs.writeSync(output, "[\n");
 
 //// SAX parser
 const strict = false; // set to false for HTML mode
 const options = {
   "trim": true
 };
+
+var isLink = false;
+var linkhref= "";
+var linkText = "";
+var links = [];
 
 // stream usage
 // takes the same options as the parser
@@ -38,8 +36,7 @@ saxStream.on("error", function (e) {
 
 saxStream.on("end", function () {
   // stream has closed
-  //fs.writeSync(output, "end:" + "\r\n");
-  fs.writeSync(output, "\n]");
+  fs.writeSync(output, JSON.stringify(links, null, 2) + "\r\n");
   fs.closeSync(output);
 });
 
@@ -68,35 +65,28 @@ saxStream.on("opentagstart", function (node) {
   //fs.writeSync(output, "opentagstart: " + JSON.stringify(node) + "\r\n");
 });
 
+saxStream.on("opentag", function (node) {
+  // node object with name, attributes, isSelfClosing
+  //fs.writeSync(output, "opentag: " + JSON.stringify(node) + "\r\n");
+  switch (node.name) {
+    case "A":
+      isLink = true;
+      linkhref = node.attributes?.HREF || "";
+      linkText = "";
+      break;
+  }
+});
+
 saxStream.on("attribute", function (attr) {
   // attribute object with name, value
   //fs.writeSync(output, "attribute: " + JSON.stringify(attr) + "\r\n");
 });
 
-saxStream.on("opentag", function (node) {
-  // node object with name, attributes, isSelfClosing
-  //fs.writeSync(output, "opentag: " + JSON.stringify(node) + "\r\n");
-  switch (node.name) {
-    case "TABLE":
-      isTable = true;
-      break;
-    case "TR":
-      isRow = true;
-      row = [];
-      break;
-    case "TH":
-    case "TD":
-      isCell = true;
-      cellText = "";
-      break;
-  }
-});
-
 saxStream.on("text", function (s) {
   // inner text string
   //fs.writeSync(output, "text: " + s + "\r\n");
-  if (isCell)
-    cellText += s;
+  if (isLink)
+    linkText += s;
 });
 
 saxStream.on("closetag", function (tag) {
@@ -104,18 +94,12 @@ saxStream.on("closetag", function (tag) {
   //fs.writeSync(output, "closetag: " + tag + "\r\n");
   var sep = "";
   switch (tag) {
-    case "TABLE":
-      isTable = false;
-      break;
-    case "TR":
-      isRow = false;
-      sep = firstRow ? (firstRow = false) || "" : ",\n";
-      fs.writeSync(output, sep + JSON.stringify(row));
-      break;
-    case "TH":
-    case "TD":
-      isCell = false;
-      row.push(cellText);
+    case "A":
+      isLink = false;
+      links.push({
+        href: linkhref,
+        text: linkText
+      });
       break;
   }
 });
@@ -143,7 +127,5 @@ saxStream.on("script", function (s) {
 
 // pipe is supported, and it's readable/writable
 // same chunks coming in also go out.
-/*
-fs.createReadStream("./test/data/html/texas_jan2024.shtml")
+fs.createReadStream("./test/data/html/helloworld.html")
   .pipe(saxStream);
-*/

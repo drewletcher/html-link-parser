@@ -36,7 +36,6 @@ async function test(options) {
 }
 
 (async () => {
-  if (await test({ url: "./test/data/html/helloworld.html", id: "global", headers: [ "Greeting" ] })) return 1;
-  if (await test({ data: "./test/data/html/helloworld.html", id: "cosmic", headers: [ "BigBang" ] })) return 1;
-
+  if (await test({ url: "./test/data/html/helloworld.html", heading: "Greetings" })) return 1;
+  if (await test({ data: "./test/data/html/helloworld.html", heading: "BigBang!" })) return 1;
 })();
