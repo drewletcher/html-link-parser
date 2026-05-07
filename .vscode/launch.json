@@ -84,7 +84,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld bigbang",
+      "name": "hlp helloworld Greetings",
       "program": "html-link-parser.js",
       "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=Greetings" ],
       "outputCapture": "std",
