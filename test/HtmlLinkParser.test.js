@@ -3,7 +3,7 @@
  */
 
 import HtmlLinkParser from "../lib/HtmlLinkParser.js";
-import fs from "node:fs";
+import fs from "node:fs/promises";
 import path from "node:path";
 import compareFiles from "./_compareFiles.js";
 
@@ -12,18 +12,20 @@ async function test(options) {
     let outputName = path.parse(options.url || options.data).name;
 
     if (options.data) {
-      options.data = fs.readFileSync(options.data);
-      //options.data = new Uint8Array(fs.readFileSync(options.data));
+      options.data = await fs.readFile(options.data);
+      //options.data = new Uint8Array(fs.readFile(options.data));
       outputName += "_data";
     }
+
+    console.log(outputName);
+    let outputFile = "./test/output/HtmlLinkParser/" + outputName + ".json";
+    console.log("output: " + outputFile);
 
     let parser = new HtmlLinkParser(options);
     let rows = await parser.parse();
 
-    let outputFile = "./test/output/HtmlLinkParser/" + outputName + ".json";
-    console.log("output: " + outputFile);
-    fs.mkdirSync(path.dirname(outputFile), { recursive: true });
-    fs.writeFileSync(outputFile, JSON.stringify(rows, null, 2));
+    await fs.mkdir(path.dirname(outputFile), { recursive: true });
+    await fs.writeFile(outputFile, JSON.stringify(rows, null, 2));
 
     let expectedFile = outputFile.replace("/output/", "/expected/");
     let exitCode = compareFiles(outputFile, expectedFile, 2);

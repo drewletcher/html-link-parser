@@ -4,7 +4,7 @@ Parse and stream tabular data from HTML documents using Node.js and [isaacs/sax-
 
 This readme explains how to use html-link-parser in your code or as a stand-alone program.
 
-> Only supports HTML documents containing TABLE elements. Does not support parsing grid or other table like elements.
+> Only supports HTML documents containing hyperlinks elements. Does not support parsing grid or other hyperlinks like elements.
 
 Related projects: [pdf-data-parser](https://github.com/drewletcher/pdf-data-parser#readme), [text-data-parser](https://github.com/drewletcher/text-data-parser#readme), [xlsx-data-parser](https://github.com/drewletcher/xlsx-data-parser#readme)
 
@@ -29,16 +29,15 @@ npm install html-link-parser
 Parse tabular data from an HTML document or URL.
 
 ```bash
-hlp <filename|URL> <output-file> --options=filename.json --heading=title --id=name --cells=# --headers=name1,name2,... --format=csv|json|rows
+hlp <filename|URL> <output-file> --options=filename.json --heading=string --href=string --text=string --id=name
 
   `filename|URL` - path name or URL of HTML file to process, required.
   `output-file`  - local path name for output of parsed data, default stdout.
   `--options`    - JSON or JSONC file containing JSON object with hlp options, default: hlp.options.json.
-  `--heading`    - text of heading to find in document that precedes desired data table, default none.
-  `--id`         - TABLE element id attribute to find in document.
-  `--cells`      - number of cells in a data row, minimum or "min-max", default = "1-256".
-  `--headers`    - comma separated list of column names for data, default none the first table row contains names.
-  `--format`     - output data format CSV, JSON, or ROWS (JSON array of arrays), default JSON.
+  `--heading`    - string|regex of heading to find in document that precedes desired data hyperlinks, default none.
+  `--href`       - string|regex of A href attribute(s) to find in document, default none.
+  `--text`       - string|regex of A text contents to find in document, default none.
+  `--id`         - A element id attribute to find in document.
 ```
 
 Note: If the `hlp` command conflicts with another program on your system use `htmllinkparser` instead.
@@ -55,25 +54,15 @@ The options file supports options for all html-link-parser modules. Parser will 
   "url": "",
   // output - local path name for output of parsed data, default stdout.
   "output": "",
-  // format - output data format CSV, JSON or rows, default JSON, rows is JSON array of arrays (rows).
-  "format": "json",
-  // heading - text of heading to find in document that precedes desired data table, default none.
+  // heading - text of heading to find in document that precedes desired data hyperlinks, default none.
   "heading": null,
-  // id - TABLE element id attribute to find in document.
-  "id": "",
-  // cells - number of cells for a data row, minimum or "min-max", default = "1-256".
-  "cells": "1-256",
-  // newlines - preserve new lines in cell data, default: false.
-  "newlines": false,
-  // trim whitespace from output values, default: true.
-  "trim": true,
-
-  /* RowAsObjectTransform options */
-
-  // hasHeaders - data has a header row, if true and headers set then headers overrides header row.
-  "RowAsObject.hasHeader": false
-  // headers - comma separated list of column names for data, default none. When not defined the first table row encountered will be treated as column names.
-  "RowAsObject.headers": []
+  // id - hyperlinks element id attribute to find in document.
+  "href": "",
+  // href - string|regex of A href attribute(s) to find in document, default none.
+  "text": "",
+  // text - string|regex of A text contents to find in document, default none.
+  "id": ""
+  // id - A element id attribute to find in document.
 
   /* HTTP options */
   // see HTTP Options below
@@ -86,7 +75,7 @@ Note: Transform property names can be shortened to `hasHeader`, `headers`, `colu
 ### Examples
 
 ```bash
-hlp ./test/data/html/helloworld.html --headers="Greeting" --format=csv
+hlp ./test/data/html/helloworld.html --headers="Greeting"
 ```
 
 ```bash
@@ -99,11 +88,11 @@ hlp ./test/data/html/helloworld.html --id="cosmic" --headers="BigBang"
 
 ### HtmlLinkParser
 
-HtmlLinkParser given a HTML document will output an array of arrays (rows). Additionally, use the streaming classes HtmlLinkReader and RowAsObjectTransform transform to convert the arrays to Javascript objects.  With default settings HtmlLinkParser will output rows in __all__ TABLE found in the document. Using [HtmlLinkParser Options](#html-link-parser-options) `heading` or `id` the parser can filter content to retrieve the desired data TABLE in the document.
+HtmlLinkParser given a HTML document will output an array of arrays (rows). Additionally, use the streaming class HtmlLinkReader to stream Javascript objects. With default settings HtmlLinkParser will output rows in __all__ hyperlinks found in the document. Using [HtmlLinkParser Options](#html-link-parser-options) `heading`, `id`, `href` and `text` the parser can filter content to retrieve the desired hyperlinks in the document.
 
-HtmlLinkParser only works on a certain subset of HTML documents specifically those that contain some TABLE elements and NOT other table like grid elements. The parser uses [isaacs/sax-js](https://github.com/isaacs/sax-js) library to transform HTML table elements into rows of cells.
+The parser uses [isaacs/sax-js](https://github.com/isaacs/sax-js) library to find HTML A (anchor) elements.
 
-Rows and Cells terminology is used instead of Rows and Columns because the content in a HTML document flows rather than strict rows/columns of database query results. Some rows may have more cells than other rows. For example a heading or description paragraph will be a row (array) with one cell (string).  See [Notes](#notes) below.
+See [Notes](#notes) below.
 
 ### Basic Usage
 
@@ -128,13 +117,9 @@ HtmlLinkParser constructor takes an options object with the following fields. On
 
 Common Options:
 
-`{String|RegExp} heading` - Heading, H1-H6 element, in the document after which the parser will look for a TABLE; optional, default: none. The parser does a string comparison or regexp match looking for first occurrence of `heading` value in a heading element. If neither `heading` or `id` are specified then data output contains all rows from all tables found in the document.
+`{String|RegExp} heading` - Heading, H1-H6 element, in the document after which the parser will look for a hyperlinks; optional, default: none. The parser does a string comparison or regexp match looking for first occurrence of `heading` value in a heading element. If neither `heading` or `id` are specified then data output contains all rows from all hyperlinkss found in the document.
 
-`{String|RegExp} id` - TABLE element id attribute in the document to parse for tabular data; optional, default: none. The parser does a string comparison of the `id` value in TABLE elements ID attribute. If neither `heading` or `id` are specified then data output contains all rows from all tables found in the document.
-
-`{Number} cells` - Minimum number of cells in tabular data; optional, default: 1. The parser will NOT output rows with less than `cells` number of cells.
-
-`{Boolean} newlines` - Preserve new lines in cell data; optional, default: false. When false newlines will be replaced by spaces. Preserving newlines characters will keep the formatting of multiline text such as descriptions. Though, newlines are problematic for cells containing multi-word identifiers and keywords that might be wrapped in the cell text.
+`{String|RegExp} id` - hyperlinks element id attribute in the document to parse for tabular data; optional, default: none. The parser does a string comparison of the `id` value in hyperlinks elements ID attribute. If neither `heading` or `id` are specified then data output contains all rows from all hyperlinkss found in the document.
 
 `{Boolean} trim` - trim whitespace from output values, default: true.
 
@@ -180,31 +165,6 @@ reader.on('error', (err) => {
 
 HtmlLinkReader constructor options are the same as [HtmlLinkParser Options](#html-link-parser-options).
 
-### RowAsObjectTransform
-
-HtmlLinkReader operates in Object Mode. The reader outputs arrays (rows). To convert rows into Javascript objects use the RowAsObjectTransform transform.  HtmlLinkReader operates in Object mode where a chunk is a Javascript Object of <name,value> pairs.
-
-```javascript
-import { HtmlLinkReader, RowAsObjectTransform } from "html-link-parser";
-import { pipeline } from 'node:stream/promises';
-
-let reader = new HtmlLinkReader(options);
-let transform1 = new RowAsObjectTransform(options);
-let writable = <some writable that can handle Object Mode data>
-
-await pipeline(reader, transform1, writable);
-```
-
-### RowAsObjectTransform Options
-
-RowAsObjectTransform constructor takes an options object with the following fields.
-
-`{String[]} headers` - array of cell property names; optional, default: none. If a headers array is not specified then parser will assume the first row found contains cell property names.
-
-`{Boolean} hasHeaders` - data has a header row, if true and headers options is set then provided headers override header row. Default is true.
-
-If a row is encountered with more cells than in the headers array then extra cell property names will be the ordinal position. For example if the data contains five cells, but only three headers where specified.  Specifying `options = { headers: [ 'name', 'type', 'info' ] }` then the Javascript objects in the stream will contain `{ "name": "value1", "type": "value2", "info": "value3", "4": "value4", "5": "value5" }`.
-
 **HTML Document**
 
 ```
@@ -230,9 +190,9 @@ import { HtmlLinkReader } from "html-link-parser";
 import { pipeline } from 'node:stream/promises';
 
 let reader = new HtmlLinkReader(options);
-let writable = <some writable that can handle Object Mode data>
+let wrihyperlinks = <some wrihyperlinks that can handle Object Mode data>
 
-await pipeline(reader, writable);
+await pipeline(reader, wrihyperlinks);
 ```
 
 **HTML Document**
@@ -260,24 +220,23 @@ import { HtmlLinkReader } from "html-link-parser";
 import { pipeline } from 'node:stream/promises';
 
 let reader = new HtmlLinkReader(options);
-let writable = <some writable that can handle Object Mode data>
+let wrihyperlinks = <some wrihyperlinks that can handle Object Mode data>
 
-await pipeline(reader, writable);
+await pipeline(reader, wrihyperlinks);
 ```
 
-### FormatCSV and FormatJSON
+### FormatJSON
 
-The `hlpdataparser` CLI program uses the FormatCSV and FormatJSON transforms to covert Javascript Objects into strings that can be saved to a file.
+The `hlpdataparser` CLI program uses the FormatJSON transform to covert Javascript Objects into strings that can be saved to a file.
 
 ```javascript
-import { HtmlLinkReader, RowAsObjectTransform, FormatCSV } from "html-link-parser";
+import { HtmlLinkReader, FormatJSON } from "html-link-parser";
 import { pipeline } from 'node:stream/promises';
 
 let reader = new HtmlLinkReader(options);
-let transform1 = new RowAsObjectTransform(options);
-let transform2 = new FormatCSV();
+let transform = new FormatJSON();
 
-await pipeline(reader, transform1, transform2, process.stdout);
+await pipeline(reader, transform, process.stdout);
 ```
 
 ## Examples
@@ -288,20 +247,12 @@ In the source code the html-link-parser.js program and the Javascript files in t
 
 ### Hello World
 
-[HelloWorld.html](./test/data/html/helloworld.html) is a single page HTML document with the string "Hello, world!" positioned on the page. The HtmlLinkParser output is one row with one cell.
+[HelloWorld.html](./test/data/html/helloworld.html) is a single page HTML document with the string "Hello, world!" positioned on the page. The HtmlLinkParser output is one object.
 
 ```json
 [
   ["Hello, world!"]
 ]
-```
-
-To transform the row array into an object specify the headers option to RowAsObjectTransform transform.
-
-```javascript
-let transform = new RowAsObjectTransform({
-  headers: [ "Greeting" ]
-})
 ```
 
 Output as JSON objects:
@@ -316,6 +267,4 @@ Output as JSON objects:
 
 ---
 
-* Only supports HTML files containing TABLE elements. Does not support other table like grid elements.
-* Does not support identification of titles, headings, column headers, etc. by using style information for a cell.
-* Vertical spanning cells are parsed with first row where the cell is encountered. Subsequent rows will not contain the cell and have one less cell. Currently, vertical spanning cells must be at the end of the row otherwise the ordinal position of cells in the following rows will be incorrect, i.e. missing values are not supported.
+* Does not support identification of headings, etc. by using style information.

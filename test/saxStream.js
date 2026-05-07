@@ -7,7 +7,15 @@
 import sax from "sax";
 import fs from "node:fs";
 
-let output = fs.openSync("./test/output/sax/saxStream.txt", "w");
+let inputFile = "./test/data/html/helloworld.html";
+let outFile = "./test/output/sax/saxStream.txt";
+let htmlFile = "./test/output/sax/saxStream.html";
+
+console.log("html input file: " + inputFile);
+console.log("elements output file: " + outFile);
+console.log("html output file: " + htmlFile);
+
+let output = fs.openSync(outFile, "w");
 
 const strict = false; // set to false for HTML mode
 const options = {
@@ -29,6 +37,7 @@ saxStream.on("error", function (e) {
 saxStream.on("end", function () {
   // stream has closed
   fs.writeSync(output, "end:" + "\r\n");
+  console.log("saxStream end");
 });
 
 saxStream.on("ready", function () {
@@ -100,6 +109,6 @@ saxStream.on("script", function (s) {
 // pipe is supported, and it's readable/writable
 // same chunks coming in also go out.
 
-fs.createReadStream("./test/data/html/helloworld.html")
+fs.createReadStream(inputFile)
   .pipe(saxStream)
-  .pipe(fs.createWriteStream("./test/output/sax/saxStream.html"));
+  .pipe(fs.createWriteStream(htmlFile));

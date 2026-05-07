@@ -6,8 +6,6 @@
 "use strict";
 
 import HtmlLinkReader from "./lib/HtmlLinkReader.js";
-import RowAsObjectTransform from "./lib/RowAsObjectTransform.js";
-import FormatCSV from "./lib/FormatCSV.js";
 import FormatJSON from "./lib/FormatJSON.js";
 import { parse } from "jsonc-parser";
 import Package from "./package.json" with { type: 'json' };
@@ -23,15 +21,13 @@ colors.enable();
 var options = {
   url: "",
   output: "",
-  format: "json",
-  cells: "1-256",
   trim: true
 }
 
 /**
  * parseArgs
  *   only filename is required
- *   example ["node.exe", "html-link-parser.js", <filename.html|URL>, <output> "--cells=3", "--heading=title", "--headers=c1,c2,.." "--format=csv|json|rows" ]
+ *   example ["node.exe", "html-link-parser.js", <filename.html|URL>, <output>, "--heading=title" ]
  */
 async function parseArgs() {
   let clOptions = {}; // command line options
@@ -53,16 +49,16 @@ async function parseArgs() {
 
       if (nv[ 0 ] === "--options")
         optionsfile = nv[ 1 ];
-      else if (nv[ 0 ] === "--cells")
-        clOptions.cells = parseInt(nv[ 1 ]);
       else if (nv[ 0 ] === "--heading")
         clOptions.heading = nv[ 1 ];
+      else if (nv[ 0 ] === "--href")
+        clOptions.href = nv[ 1 ];
+      else if (nv[ 0 ] === "--text")
+        clOptions.text = nv[ 1 ];
       else if (nv[ 0 ] === "--id")
         clOptions.id = nv[ 1 ];
-      else if (nv[ 0 ].includes("--headers"))
-        clOptions.headers = nv[ 1 ].split(",");
-      else if (nv[ 0 ] === "--format")
-        clOptions.format = nv[ 1 ].toLowerCase();
+      else if (nv[ 0 ] === "--trim")
+        clOptions.trim = nv[ 1 ] === "true";
     }
     ++i;
   }
@@ -106,16 +102,15 @@ async function parseArgs() {
     console.log("");
     console.log("Parse tabular data from a HTML file.");
     console.log("");
-    console.log("hlp <filename.html|URL> <output> --options=filename.json --heading=title --id=name --cells=# --headers=name1,name2,... --format=csv|json|rows");
+    console.log("hlp <filename.html|URL> <output> --options=filename.json --heading=string --href=string --text=string --id=name");
     console.log("");
     console.log("  filename|URL - path name or URL of HTML file to process, required.");
     console.log("  output       - local path name for output of parsed data, default stdout.");
     console.log("  --options    - JSON or JSONC file containing hlp options, default: hlp.options.json.");
-    console.log("  --heading    - text of heading to find in document that precedes desired data table, default none.");
-    console.log("  --id         - TABLE element id attribute to find in document.");
-    console.log("  --cells      - minimum number of cells for a data row, default = 1.");
-    console.log("  --headers    - comma separated list of column names for data, default none first table row contains names.");
-    console.log("  --format     - output data format CSV, JSON, or ROWS (JSON array of arrays), default JSON.");
+    console.log("  --heading    - text of heading to find in document that precedes desired hyperlinks, default none.");
+    console.log("  --href       - text to match in the link href attribute, default: none (all links).");
+    console.log("  --text       - text to match in the link text, default: none (all links).");
+    console.log("  --id         - A element id attribute to find in document.");
     console.log("");
     return;
   }
@@ -126,12 +121,7 @@ async function parseArgs() {
     let reader = new HtmlLinkReader(options);
     pipes.push(reader);
 
-    if (options?.format !== "rows") {
-      let transform = new RowAsObjectTransform(options);
-      pipes.push(transform);
-    }
-
-    let formatter = options?.format === "csv" ? new FormatCSV(options) : new FormatJSON(options);
+    let formatter = new FormatJSON(options);
     pipes.push(formatter);
 
     let writer;

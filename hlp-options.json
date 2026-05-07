@@ -1,14 +1,11 @@
 {
   "url": "",
-  "format": "json",
   "output": "",
   "heading": null,
+  "href": null,
+  "text": null,
   "id": null,
-  "cells": "1-256",
-  "newlines": false,
   "trim": true,
-  "RowAsObject.hasHeader": false,
-  "RowAsObject.headers": null,
   "http": {
     "method": "GET",
     "headers": {},

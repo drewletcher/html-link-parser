@@ -8,7 +8,13 @@
 import sax from "sax";
 import fs from "node:fs";
 
-var output = fs.openSync("./test/output/sax/getCells.json", "w");
+let inputFile = "./test/data/html/helloworld.html";
+let outputFile = "./test/output/sax/getCells.json";
+
+console.log("html input file: " + inputFile);
+console.log("links output file: " + outputFile);
+
+var output = fs.openSync(outputFile, "w");
 //fs.writeSync(output, "[\n");
 
 //// SAX parser
@@ -38,6 +44,7 @@ saxStream.on("end", function () {
   // stream has closed
   fs.writeSync(output, JSON.stringify(links, null, 2) + "\r\n");
   fs.closeSync(output);
+  console.log("saxStream end");
 });
 
 saxStream.on("ready", function () {
@@ -127,5 +134,5 @@ saxStream.on("script", function (s) {
 
 // pipe is supported, and it's readable/writable
 // same chunks coming in also go out.
-fs.createReadStream("./test/data/html/helloworld.html")
+fs.createReadStream(inputFile)
   .pipe(saxStream);

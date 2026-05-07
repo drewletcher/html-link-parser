@@ -55,15 +55,6 @@
       ]
     },
     {
-      "type": "node",
-      "name": "RowAsObjectTransform",
-      "program": "${workspaceFolder}/test/RowAsObject.test.js",
-      "request": "launch",
-      "skipFiles": [
-        "<node_internals>/**"
-      ]
-    },
-    {
       "type": "node-terminal",
       "name": "--- hlp",
       "request": "launch"
@@ -71,7 +62,18 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld json",
+      "name": "hlp helloworld",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld global",
       "program": "html-link-parser.js",
       "args": [ ".\\test\\data\\html\\helloworld.html", "--id=global" ],
       "outputCapture": "std",
@@ -82,20 +84,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld csv",
+      "name": "hlp helloworld bigbang",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=BigBang!", "--format=csv" ],
-      "outputCapture": "std",
-      "skipFiles": [
-        "<node_internals>/**"
-      ]
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "hlp helloworld rows",
-      "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--format=rows" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=Greetings" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
