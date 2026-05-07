@@ -62,7 +62,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld",
+      "name": "hlp helloworld all",
       "program": "html-link-parser.js",
       "args": [ ".\\test\\data\\html\\helloworld.html" ],
       "outputCapture": "std",
@@ -73,7 +73,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld global",
+      "name": "hlp helloworld id",
       "program": "html-link-parser.js",
       "args": [ ".\\test\\data\\html\\helloworld.html", "--id=global" ],
       "outputCapture": "std",
@@ -84,9 +84,42 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld Greetings",
+      "name": "hlp helloworld heading",
       "program": "html-link-parser.js",
       "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=Greetings" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld href",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--href=world.com" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld combo",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--href=world.com", "--text=Hello Universe!" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld combo w/ heading",
+      "program": "html-link-parser.js",
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=Greetings", "--href=world.com", "--text=Hello Universe!" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
