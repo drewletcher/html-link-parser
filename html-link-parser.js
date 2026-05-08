@@ -51,12 +51,8 @@ async function parseArgs() {
         optionsfile = nv[ 1 ];
       else if (nv[ 0 ] === "--heading")
         clOptions.heading = nv[ 1 ];
-      else if (nv[ 0 ] === "--href")
-        clOptions.href = nv[ 1 ];
-      else if (nv[ 0 ] === "--text")
-        clOptions.text = nv[ 1 ];
-      else if (nv[ 0 ] === "--id")
-        clOptions.id = nv[ 1 ];
+      else if (nv[ 0 ] === "--terms")
+        clOptions.terms = nv[ 1 ].split(",");
       else if (nv[ 0 ] === "--trim")
         clOptions.trim = nv[ 1 ] === "true";
     }

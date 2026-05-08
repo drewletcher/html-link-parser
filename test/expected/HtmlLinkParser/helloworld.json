@@ -1,6 +1,7 @@
 [
   {
     "href": "https://world.com",
+    "id": "global",
     "text": "Hello World!"
   }
 ]

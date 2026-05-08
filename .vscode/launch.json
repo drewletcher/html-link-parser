@@ -49,6 +49,7 @@
       "type": "node",
       "name": "HtmlLinkReader",
       "program": "${workspaceFolder}/test/HtmlLinkReader.test.js",
+      "runtimeArgs": ["--use-system-ca"],
       "request": "launch",
       "skipFiles": [
         "<node_internals>/**"
@@ -75,7 +76,7 @@
       "request": "launch",
       "name": "hlp helloworld id",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--id=global" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--terms=global" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
@@ -97,7 +98,7 @@
       "request": "launch",
       "name": "hlp helloworld href",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--href=world.com" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--terms=world.com" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
@@ -108,7 +109,7 @@
       "request": "launch",
       "name": "hlp helloworld combo",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--href=world.com", "--text=Hello Universe!" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--terms=world.com,Hello Universe!" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
@@ -119,7 +120,29 @@
       "request": "launch",
       "name": "hlp helloworld combo w/ heading",
       "program": "html-link-parser.js",
-      "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=Greetings", "--href=world.com", "--text=Hello Universe!" ],
+      "args": [ ".\\test\\data\\html\\helloworld.html", "--heading=Greetings", "--terms=world.com,Hello Universe!" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld al_sos elect",
+      "program": "html-link-parser.js",
+      "args": [ "./test/data/html/al_sos.html", "--terms=/.*elect.*./i" ],
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "hlp helloworld al_sos elect",
+      "program": "html-link-parser.js",
+      "args": [ "./test/data/html/al_sos.html", "--terms=Elect" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"

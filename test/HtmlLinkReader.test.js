@@ -35,6 +35,56 @@ async function test(options) {
 }
 
 (async () => {
-  if (await test({ url: "./test/data/html/helloworld.html", id: "global" })) return 1;
-  if (await test({ data: "./test/data/html/helloworld.html", text: /.*[uU]niverse.*/ })) return 1;
+  if (await test({ url: "./test/data/html/helloworld.html", terms: [ "global" ] })) return 1;
+  if (await test({ data: "./test/data/html/helloworld.html", terms: [ /.*[uU]niverse.*/ ] })) return 1;
+
+  if (await test({ url: "./test/data/html/al_sos.html", terms: [ /.*vote.*/i, /.*elect.*/i ] })) return 1;
+
+  // 301
+  if (await test({ url: "http://www.alabamavotes.gov/", terms: [ /(.*vote.*)/i, /(.*elect.*)/i ] })) return 1;
+
+  if (await test({ url: "https://www.sos.alabama.gov/alabama-votes", terms: [ /(.*vote.*)/i, /(.*elect.*)/i ] })) return 1;
+
+  if (await test({
+    url: "https://www.sos.alabama.gov/alabama-votes/voter/election-information",
+    terms: [
+      /.*elect.*/i,
+      /.*vote.*/i,
+      /.*info.*/i,
+      /.*data.*/i,
+      /.*general.*/i,
+      /.*primary.*/i,
+      /.*runoff.*/i,
+      /.*special.*/i,
+      /.*map.*/i,
+      /.*shape.*/i,
+      /.*result.*/i,
+      /.*summary.*/i,
+      /.*upcoming.*/i,
+      /.*calendar.*/i,
+    ]
+  })) return 1;
+
+  if (await test({
+    url: "https://www.sos.alabama.gov/alabama-votes/voter/election-data",
+    terms: [
+
+      /.*elect.*/i,
+      /.*vote.*/i,
+      /.*info.*/i,
+      /.*data.*/i,
+      /.*general.*/i,
+      /.*primary.*/i,
+      /.*runoff.*/i,
+      /.*special.*/i,
+      /.*map.*/i,
+      /.*shape.*/i,
+      /.*result.*/i,
+      /.*summary.*/i,
+      /.*upcoming.*/i,
+      /.*calendar.*/i,
+    ]
+  })) return 1;
+
+  console.log("All tests passed.");
 })();
