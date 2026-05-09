@@ -5,128 +5,229 @@
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes",
-    "text": "Search Alabama Votes"
+    "text": "Alabama Votes",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
-    "id": "block-alabamavotesmenu",
     "href": "/alabama-votes/faqs",
-    "text": "FAQ"
+    "text": "FAQ",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information",
-    "text": "Voters"
+    "text": "Voters",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/candidates/candidate-resources",
-    "text": "Candidates"
+    "text": "Candidates",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/pac-resources",
-    "text": "PACs"
+    "text": "PACs",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/contact-us",
-    "text": "Contact Us"
+    "text": "Contact Us",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
-    "alt": "Wes Allen",
     "href": "https://www.sos.alabama.gov/alabama-votes/2026-primary-election-sample-ballots",
-    "text": "Secretary of State Wes Allen Call Toll Free: 1-800-274-8683 .voter-count{ color:#F4B344; font-size:24px; font-style:italic; } 3,804,046 Registered Voters View the 2026 Primary Election Sample Ballots"
+    "text": "View the 2026 Primary Election Sample Ballots",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/register-to-vote",
     "alt": "Voter Registration",
-    "text": "Voter Registration / Update Registration"
+    "text": "Voter Registration / Update Registration",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information",
     "alt": "Election Information Icon",
-    "text": "Election Information"
+    "text": "Election Information",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "https://myinfo.alabamavotes.gov/voterview",
     "alt": "My Polling Place Icon",
-    "text": "My Voting Information"
+    "text": "My Voting Information",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/absentee-voting",
     "alt": "Absentee Voting Icon",
-    "text": "Absentee Voting"
+    "text": "Absentee Voting",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "https://www.alabamainteractive.org/sos/voter/voterWelcome.action",
     "alt": "Voter List Icon",
-    "text": "Purchase Voter List"
+    "text": "Purchase Voter List",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/voter/ballot-measures/statewide",
     "alt": "Ballot Measures Icon",
-    "text": "Proposed Statewide Constitutional Amendments"
+    "text": "Proposed Statewide Constitutional Amendments",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/upcoming-elections",
     "alt": "Upcoming Elections Icon",
-    "text": "Upcoming Elections"
+    "text": "Upcoming Elections",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/state-district-maps",
     "alt": "State Districts Icon",
-    "text": "State District Maps"
+    "text": "State District Maps",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/campaign-finance-reports",
     "alt": "Campaign Finance Icon",
-    "text": "Campaign Finance"
+    "text": "Campaign Finance",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/alabama-votes/photo-voter-id",
     "alt": "Photo Voter ID Icon",
-    "text": "Photo Voter ID"
+    "text": "Photo Voter ID",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "http://www.stopvoterfraudnow.com/",
-    "text": "It’s Your Responsibility to Report Allegations of Voter Fraud STOP VOTER FRAUD NOW"
+    "text": "STOP VOTER FRAUD NOW",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "alt": "Election Assistance Commission",
     "href": "http://www.eac.gov/",
-    "text": ""
+    "text": "",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "alt": "Federal Election Commission",
     "href": "http://www.fec.gov/",
-    "text": ""
+    "text": "",
+    "tags": [
+      "SECTION"
+    ]
   }
 ]

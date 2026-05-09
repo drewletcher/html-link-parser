@@ -5,55 +5,108 @@
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/2026-primary-election-sample-ballots",
-    "text": "View the 2026 Primary Election Sample Ballots"
+    "text": "View the 2026 Primary Election Sample Ballots",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
     "alt": "Voting Icon",
-    "text": "Voting In Alabama"
+    "text": "Voting In Alabama",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/newsroom/secretary-state-wes-allen-may-19-primary-election-proceed-planned",
-    "text": "Secretary of State Wes Allen: “May 19 Primary Election to Proceed as Planned”"
+    "text": "Secretary of State Wes Allen: “May 19 Primary Election to Proceed as Planned”",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "/newsroom/secretary-state-wes-allen-may-19-primary-election-proceed-planned",
-    "text": "Wes Allen, Alabama’s Secretary of State, makes it clear that Alabama is proceeding with the May 19, 2026 Primary Election as scheduled while the State awaits… May 4, 2026 Read More"
+    "text": "Read More",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
     "href": "http://www.stopvoterfraudnow.com/",
-    "text": "It’s Your Responsibility to Report Allegations of Voter Fraud STOP VOTER FRAUD NOW"
+    "text": "STOP VOTER FRAUD NOW",
+    "tags": [
+      "SECTION"
+    ]
   }
 ]

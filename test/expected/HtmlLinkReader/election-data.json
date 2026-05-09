@@ -4,854 +4,1747 @@
     "text": "Braille Voter Guide"
   },
   {
-    "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
-  },
-  {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
-  },
-  {
-    "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
-  },
-  {
-    "href": "https://www.sos.alabama.gov/node/1533",
-    "text": "Oath of Office Information Center"
-  },
-  {
-    "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "href": "https://www.sos.alabama.gov/sos-office",
+    "title": "SOS Office Information",
+    "text": "SOS Office",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
+    "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
+    "title": "Fees and Funds Information",
+    "text": "Fees & Funds",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/node/1533",
-    "text": "Oath of Office Information Center"
+    "title": "Oath of Office Forms",
+    "text": "Oath of Office Information Center",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office",
+    "title": "SOS Office Information",
+    "text": "SOS Office",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
+    "title": "Fees and Funds Information",
+    "text": "Fees & Funds",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "http://www.alabamavotes.gov/",
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/node/1533",
+    "title": "Oath of Office Forms",
+    "text": "Oath of Office Information Center",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes",
-    "text": "Search Alabama Votes"
+    "text": "Alabama Votes",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
-    "id": "block-alabamavotesmenu",
     "href": "/alabama-votes/faqs",
-    "text": "FAQ"
+    "text": "FAQ",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information",
-    "text": "Voters"
+    "text": "Voters",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/candidates/candidate-resources",
-    "text": "Candidates"
+    "text": "Candidates",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/pac-resources",
-    "text": "PACs"
+    "text": "PACs",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/contact-us",
-    "text": "Contact Us"
+    "text": "Contact Us",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes",
-    "text": "Alabama Votes"
+    "text": "Alabama Votes",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/sites/default/files/election-data/2026-04/ALVR-2026_0.xlsx",
     "alt": "Voter Registration Statistics - 2026 PDF",
-    "text": "Year Elections Division Data Downloads Description Link 2026 Voter Registration Statistics - 2026 Statistics on the number of registered voters. This file includes year to date figures for 2026."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2026 Voter Registration Statistics - 2026 Statistics on the number of registered voters. This file includes year to date figures for 2026."
   },
   {
     "href": "/sites/default/files/election-data/2026-01/ALVR-2025.xlsx",
     "alt": "Voter Registration Statistics - 2025 PDF",
-    "text": "2025 Voter Registration Statistics - 2025 Statistics on the number of registered voters. This file includes year to date figures for 2025."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2025 Voter Registration Statistics - 2025 Statistics on the number of registered voters. This file includes year to date figures for 2025."
   },
   {
-    "href": "/sites/default/files/election-data/2024-12/Comprehensive%20Voter%20Turnout%201986-2024.pdf",
+    "href": "/sites/default/files/election-data/2024-12/Comprehensive Voter Turnout 1986-2024.pdf",
     "alt": "Comprehensive Voter Turnout 1986-2024 PDF",
-    "text": "2024-1986 Comprehensive Voter Turnout 1986-2024"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024-1986 Comprehensive Voter Turnout 1986-2024"
   },
   {
-    "href": "/sites/default/files/election-data/2025-12/2024_Primary_Runoff_Election_Total_Ballots_Cast.pdf",
-    "alt": "Total Ballots Cast - Primary Runoff Election PDF",
-    "text": "2024 Total Ballots Cast - Primary Runoff Election"
-  },
-  {
-    "href": "/sites/default/files/election-data/2025-10/2024%20General%20Election%20Participation%20by%20Gender.pdf",
-    "alt": "2024 General Election Participation by Gender PDF",
-    "text": "2024 2024 General Election Participation by Gender"
-  },
-  {
-    "href": "/sites/default/files/election-data/2025-01/ALVR-2024.xlsx",
-    "alt": "Voter Registration Statistics - 2024 PDF",
-    "text": "2024 Voter Registration Statistics - 2024 Statistics on the number of registered voters. This file includes year to date figures for 2024."
-  },
-  {
-    "href": "/sites/default/files/election-data/2024-12/2024-General%20Precinct%20Level%20Results.zip",
-    "alt": "General Election Results - Precinct Level PDF",
-    "text": "2024 General Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2025-10/2024%20General%20Election%20Participation%20by%20Age.pdf",
-    "alt": "2024 General Election Participation by Age PDF",
-    "text": "2024 2024 General Election Participation by Age"
-  },
-  {
-    "href": "/sites/default/files/election-data/2024-04/2024%20Primary%20Precinct%20Results.ZIP",
-    "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "2024 Primary Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2025-01/2024GeneralElectionTotalBallotsCast.pdf",
-    "alt": "Total Ballots Cast - General Election PDF",
-    "text": "2024 Total Ballots Cast - General Election"
-  },
-  {
-    "href": "/sites/default/files/election-data/2024-07/2024%20Primary%20Runoff%20Precinct%20Results.zip",
+    "href": "/sites/default/files/election-data/2024-07/2024 Primary Runoff Precinct Results.zip",
     "alt": "Primary Runoff Election Results - Precinct Level PDF",
-    "text": "2024 Primary Runoff Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 Primary Runoff Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2025-12/2024_Primary_Election_Total_Ballots_Cast.pdf",
     "alt": "Total Ballots Cast - Primary Election PDF",
-    "text": "2024 Total Ballots Cast - Primary Election"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 Total Ballots Cast - Primary Election"
   },
   {
-    "href": "/sites/default/files/election-data/2025-10/2024%20General%20Election%20Participation%20by%20Race.pdf",
+    "href": "/sites/default/files/election-data/2025-10/2024 General Election Participation by Race.pdf",
     "alt": "2024 General Election Participation by Race PDF",
-    "text": "2024 2024 General Election Participation by Race"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 2024 General Election Participation by Race"
+  },
+  {
+    "href": "/sites/default/files/election-data/2025-12/2024_Primary_Runoff_Election_Total_Ballots_Cast.pdf",
+    "alt": "Total Ballots Cast - Primary Runoff Election PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 Total Ballots Cast - Primary Runoff Election"
+  },
+  {
+    "href": "/sites/default/files/election-data/2025-10/2024 General Election Participation by Gender.pdf",
+    "alt": "2024 General Election Participation by Gender PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 2024 General Election Participation by Gender"
+  },
+  {
+    "href": "/sites/default/files/election-data/2025-01/ALVR-2024.xlsx",
+    "alt": "Voter Registration Statistics - 2024 PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 Voter Registration Statistics - 2024 Statistics on the number of registered voters. This file includes year to date figures for 2024."
+  },
+  {
+    "href": "/sites/default/files/election-data/2024-12/2024-General Precinct Level Results.zip",
+    "alt": "General Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 General Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2025-10/2024 General Election Participation by Age.pdf",
+    "alt": "2024 General Election Participation by Age PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 2024 General Election Participation by Age"
+  },
+  {
+    "href": "/sites/default/files/election-data/2024-04/2024 Primary Precinct Results.ZIP",
+    "alt": "Primary Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 Primary Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2025-01/2024GeneralElectionTotalBallotsCast.pdf",
+    "alt": "Total Ballots Cast - General Election PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2024 Total Ballots Cast - General Election"
   },
   {
     "href": "/sites/default/files/election-data/2024-01/ALVR-2023.xlsx",
     "alt": "Voter Registration Statistics - 2023 PDF",
-    "text": "2023 Voter Registration Statistics - 2023 Statistics on the number of registered voters. This file includes year to date figures for 2023."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2023 Voter Registration Statistics - 2023 Statistics on the number of registered voters. This file includes year to date figures for 2023."
   },
   {
-    "href": "/sites/default/files/election-data/2022-08/2022%20Primary%20Runoff%20Election%20Total%20Ballots%20Cast.pdf",
+    "href": "/sites/default/files/election-data/2022-07/2022 Primary Runoff Precinct Results.zip",
+    "alt": "Primary Runoff Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 Primary Runoff Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2022-08/2022 Primary Election Total Ballots Cast.pdf",
+    "alt": "Total Ballots Cast - Primary Election PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 Total Ballots Cast - Primary Election"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-05/General Election 2022 Official Total Ballots Cast.pdf",
+    "alt": "Total Ballots Cast - General Election PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 Total Ballots Cast - General Election"
+  },
+  {
+    "href": "/sites/default/files/election-data/2022-08/2022 Primary Runoff Election Total Ballots Cast.pdf",
     "alt": "Total Ballots Cast - Primary Runoff Election PDF",
-    "text": "2022 Total Ballots Cast - Primary Runoff Election"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 Total Ballots Cast - Primary Runoff Election"
   },
   {
     "href": "/sites/default/files/election-data/2023-02/ALVR-2022.xlsx",
     "alt": "Voter Registration Statistics - 2022 PDF",
-    "text": "2022 Voter Registration Statistics - 2022 Statistics on the number of registered voters. This file includes year to date figures for 2022."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 Voter Registration Statistics - 2022 Statistics on the number of registered voters. This file includes year to date figures for 2022."
   },
   {
-    "href": "/sites/default/files/election-data/2022-11/Final%20Canvass%20of%20Results%20%28canvassed%20by%20state%20canvassing%20board%2011-28-2022%29.pdf",
+    "href": "/sites/default/files/election-data/2022-11/Final Canvass of Results (canvassed by state canvassing board 11-28-2022).pdf",
     "alt": "2022 General Election Canvass of Results    PDF",
-    "text": "2022 2022 General Election Canvass of Results"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 2022 General Election Canvass of Results"
   },
   {
-    "href": "/sites/default/files/election-data/2022-06/2022%20Primary%20Precinct%20Results.zip",
+    "href": "/sites/default/files/election-data/2022-06/2022 Primary Precinct Results.zip",
     "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "2022 Primary Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 Primary Election Results - Precinct Level"
   },
   {
-    "href": "/sites/default/files/election-data/2022-11/2022%20General%20Precinct%20Level%20Results.zip",
+    "href": "/sites/default/files/election-data/2022-11/2022 General Precinct Level Results.zip",
     "alt": "General Election Results - Precinct Level PDF",
-    "text": "2022 General Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2022-07/2022%20Primary%20Runoff%20Precinct%20Results.zip",
-    "alt": "Primary Runoff Election Results - Precinct Level PDF",
-    "text": "2022 Primary Runoff Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2022-08/2022%20Primary%20Election%20Total%20Ballots%20Cast.pdf",
-    "alt": "Total Ballots Cast - Primary Election PDF",
-    "text": "2022 Total Ballots Cast - Primary Election"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-05/General%20Election%202022%20Official%20Total%20Ballots%20Cast.pdf",
-    "alt": "Total Ballots Cast - General Election PDF",
-    "text": "2022 Total Ballots Cast - General Election"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2022 General Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2022-01/ALVR-2021.xlsx",
     "alt": "Voter Registration Statistics - 2021 PDF",
-    "text": "2021 Voter Registration Statistics - 2021 Statistics on the number of registered voters. This file includes year to date figures for 2021."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2021 Voter Registration Statistics - 2021 Statistics on the number of registered voters. This file includes year to date figures for 2021."
   },
   {
-    "href": "/sites/default/files/election-data/2020-12/2020%20General%20Precinct%20Results.zip",
-    "alt": "General Election Results - Precinct Level PDF",
-    "text": "2020 General Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2020-08/2020%20Primary%20Runoff%20Precinct%20Results.zip",
-    "alt": "Primary Runoff Election Results - Precinct Level PDF",
-    "text": "2020 Primary Runoff Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2021-06/2020%20General%20Election%20Participation%20by%20Age.pdf",
+    "href": "/sites/default/files/election-data/2021-06/2020 General Election Participation by Age.pdf",
     "alt": "2020 General Election Participation by Age PDF",
-    "text": "2020 2020 General Election Participation by Age"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 2020 General Election Participation by Age"
   },
   {
-    "href": "/sites/default/files/election-data/2020-08/2020%20HD49%20Primary%20Precinct%20Results.zip",
+    "href": "/sites/default/files/election-data/2020-08/2020 HD49 Primary Precinct Results.zip",
     "alt": "Special Primary Election House District 49 Results - Precinct Level PDF",
-    "text": "2020 Special Primary Election House District 49 Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 Special Primary Election House District 49 Results - Precinct Level"
   },
   {
-    "href": "/sites/default/files/election-data/2021-06/2020%20General%20Election%20Participation%20by%20Gender.pdf",
+    "href": "/sites/default/files/election-data/2021-06/2020 General Election Participation by Gender.pdf",
     "alt": "2020 General Election Participation by Gender PDF",
-    "text": "2020 2020 General Election Participation by Gender"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 2020 General Election Participation by Gender"
   },
   {
     "href": "/sites/default/files/election-data/2021-01/ALVR-2020.xls",
     "alt": "Voter Registration Statistics - 2020 PDF",
-    "text": "2020 Voter Registration Statistics - 2020 Statistics on the number of registered voters. This file includes year to date figures for 2020."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 Voter Registration Statistics - 2020 Statistics on the number of registered voters. This file includes year to date figures for 2020."
   },
   {
     "href": "/sites/default/files/election-data/2020-11/2020_General_Total_Ballots_Cast_Report.pdf",
     "alt": "Total Ballots Cast - General Election PDF",
-    "text": "2020 Total Ballots Cast - General Election"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 Total Ballots Cast - General Election"
   },
   {
-    "href": "/sites/default/files/election-data/2021-06/2020%20General%20Election%20Participation%20by%20Race.pdf",
+    "href": "/sites/default/files/election-data/2021-06/2020 General Election Participation by Race.pdf",
     "alt": "2020 General Election Participation by Race PDF",
-    "text": "2020 2020 General Election Participation by Race"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 2020 General Election Participation by Race"
   },
   {
-    "href": "/sites/default/files/election-data/2020-06/2020%20Primary%20Precinct%20Results.zip",
+    "href": "/sites/default/files/election-data/2020-06/2020 Primary Precinct Results.zip",
     "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "2020 Primary Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 Primary Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2020-12/2020 General Precinct Results.zip",
+    "alt": "General Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 General Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2020-08/2020 Primary Runoff Precinct Results.zip",
+    "alt": "Primary Runoff Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2020 Primary Runoff Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2020-01/ALVR-2019.xls",
     "alt": "Voter Registration Statistics - 2019 PDF",
-    "text": "2019 Voter Registration Statistics - 2019 Statistics on the number of registered voters. This file includes year to date figures for 2019."
-  },
-  {
-    "href": "/sites/default/files/election-data/2019-01/2018GeneralTotalsByGender.xlsx",
-    "alt": "2018 General Totals by Gender PDF",
-    "text": "2018 2018 General Totals by Gender 2018 General Election Results Broken Down by Gender"
-  },
-  {
-    "href": "/sites/default/files/election-data/2018-07/2018-Official-Primary-Precinct-Results_1.zip",
-    "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "2018 Primary Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2019-01/2018GeneralVoterTurnoutStats.xlsx",
-    "alt": "2018 General Voter Turnout Statistics PDF",
-    "text": "2018 2018 General Voter Turnout Statistics 2018 General Election Results Broken Down by Straight Party and Absentee Voting"
-  },
-  {
-    "href": "/sites/default/files/election-data/2018-11/2018-Official-General-Precinct-Results.zip",
-    "alt": "General Election Results - Precinct Level PDF",
-    "text": "2018 General Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2019 Voter Registration Statistics - 2019 Statistics on the number of registered voters. This file includes year to date figures for 2019."
   },
   {
     "href": "/sites/default/files/election-data/2019-01/2018GeneralTotalsByRace.xlsx",
     "alt": "2018 General Totals by Race PDF",
-    "text": "2018 2018 General Totals by Race 2018 General Election Results Broken Down by Race"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 2018 General Totals by Race 2018 General Election Results Broken Down by Race"
   },
   {
     "href": "/sites/default/files/election-data/2019-01/ALVR-2018.xls",
     "alt": "Voter Registration Statistics - 2018 PDF",
-    "text": "2018 Voter Registration Statistics - 2018 Statistics on the number of registered voters. This file includes year to date figures for 2018."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 Voter Registration Statistics - 2018 Statistics on the number of registered voters. This file includes year to date figures for 2018."
   },
   {
     "href": "/sites/default/files/election-data/2019-01/2018GeneralTotalsByAge.xlsx",
     "alt": "2018 General Totals by Age PDF",
-    "text": "2018 2018 General Totals by Age 2018 General Election Results Broken Down by Age"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 2018 General Totals by Age 2018 General Election Results Broken Down by Age"
   },
   {
-    "href": "/sites/default/files/election-data/2018-03/2017-Special-General-PrecinctLevel.zip",
-    "alt": "Special General Election Results - Precinct Level PDF",
-    "text": "2017 Special General Election Results - Precinct Level U.S. Senate Special General Election - 12/12/2017"
+    "href": "/sites/default/files/election-data/2019-01/2018GeneralTotalsByGender.xlsx",
+    "alt": "2018 General Totals by Gender PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 2018 General Totals by Gender 2018 General Election Results Broken Down by Gender"
+  },
+  {
+    "href": "/sites/default/files/election-data/2018-07/2018-Official-Primary-Precinct-Results_1.zip",
+    "alt": "Primary Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 Primary Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2019-01/2018GeneralVoterTurnoutStats.xlsx",
+    "alt": "2018 General Voter Turnout Statistics PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 2018 General Voter Turnout Statistics 2018 General Election Results Broken Down by Straight Party and Absentee Voting"
+  },
+  {
+    "href": "/sites/default/files/election-data/2018-11/2018-Official-General-Precinct-Results.zip",
+    "alt": "General Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2018 General Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2018-01/ALVR-2017.xls",
     "alt": "Voter Registration Statistics - 2017 PDF",
-    "text": "2017 Voter Registration Statistics - 2017 Statistics on the number of registered voters.  This file includes year to date figures for 2017."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2017 Voter Registration Statistics - 2017 Statistics on the number of registered voters.  This file includes year to date figures for 2017."
+  },
+  {
+    "href": "/sites/default/files/election-data/2018-03/2017-Special-General-PrecinctLevel.zip",
+    "alt": "Special General Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2017 Special General Election Results - Precinct Level U.S. Senate Special General Election - 12/12/2017"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2016-Primary-PrecinctLevel.zip",
     "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "2016 Primary Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2016 Primary Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2016.xls",
     "alt": "Voter Registration Statistics - 2016 PDF",
-    "text": "2016 Voter Registration Statistics - 2016 Statistics on the number of registered voters. This file includes year to date figures for 2016."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2016 Voter Registration Statistics - 2016 Statistics on the number of registered voters. This file includes year to date figures for 2016."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2016-General-PrecinctLevel.zip",
     "alt": "General Election Results - Precinct Level PDF",
-    "text": "2016 General Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2016 General Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2015.xls",
     "alt": "Voter Registration Statistics - 2015 PDF",
-    "text": "2015 Voter Registration Statistics - 2015 Statistics on the number of registered voters. This file includes year to date figures for 2015."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/ALVR-2014.xls",
-    "alt": "Voter Registration Statistics - 2014 PDF",
-    "text": "2014 Voter Registration Statistics - 2014 Statistics on the number of registered voters. This file includes year to date figures for 2014."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2015 Voter Registration Statistics - 2015 Statistics on the number of registered voters. This file includes year to date figures for 2015."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2014General-precinctLevel.zip",
     "alt": "General Election Results - Precinct Level PDF",
-    "text": "2014 General Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2014 General Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/ALVR-2014.xls",
+    "alt": "Voter Registration Statistics - 2014 PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2014 Voter Registration Statistics - 2014 Statistics on the number of registered voters. This file includes year to date figures for 2014."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2013_0.xls",
     "alt": "Voter Registration Statistics - 2013 PDF",
-    "text": "2013 Voter Registration Statistics - 2013 Statistics on the number of registered voters. This file includes year to date figures for 2013."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2013 Voter Registration Statistics - 2013 Statistics on the number of registered voters. This file includes year to date figures for 2013."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/Tuscaloosa-2012-2014-General.zip",
     "alt": "Tuscaloosa County - General Election Results, by Precinct PDF",
-    "text": "2012-2014 Tuscaloosa County - General Election Results, by Precinct"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2012-2014 Tuscaloosa County - General Election Results, by Precinct"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2012.xls",
     "alt": "Voter Registration Statistics - 2012 PDF",
-    "text": "2012 Voter Registration Statistics - 2012 Statistics on the number of registered voters. This file includes year to date figures for 2012."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2012 Voter Registration Statistics - 2012 Statistics on the number of registered voters. This file includes year to date figures for 2012."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2012General-PrecinctLevel.zip",
     "alt": "General Election Results - Precinct Level PDF",
-    "text": "2012 General Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2012 General Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2012-primary-precinctLevel_1.zip",
     "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "2012 Primary Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2012 Primary Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2011.xls",
     "alt": "Voter Registration Statistics - 2011 PDF",
-    "text": "2011 Voter Registration Statistics - 2011 Statistics on the number of registered voters. This file includes year to date figures for 2011."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/eastateleg10.xlsx",
-    "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "2010 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2011 Voter Registration Statistics - 2011 Statistics on the number of registered voters. This file includes year to date figures for 2011."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2010.xls",
     "alt": "Voter Registration Statistics - 2010 PDF",
-    "text": "2010 Voter Registration Statistics - 2010 Statistics on the number of registered voters. This file includes year to date figures for 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2010 Voter Registration Statistics - 2010 Statistics on the number of registered voters. This file includes year to date figures for 2010."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2010-general-precinctLevel.zip",
     "alt": "General Election Results - Precinct Level PDF",
-    "text": "2010 General Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2010 General Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/eastateleg10.xlsx",
+    "alt": "Election Results Archive - Alabama Legislature PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2010 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 2010."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2009.xls",
     "alt": "Voter Registration Statistics - 2009 PDF",
-    "text": "2009 Voter Registration Statistics - 2009 Statistics on the number of registered voters. This file includes year to date figures for 2009."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2009 Voter Registration Statistics - 2009 Statistics on the number of registered voters. This file includes year to date figures for 2009."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2008.xls",
     "alt": "Voter Registration Statistics - 2008 PDF",
-    "text": "2008 Voter Registration Statistics - 2008 Statistics on the number of registered voters. This file includes year to date figures for 2008."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2008 Voter Registration Statistics - 2008 Statistics on the number of registered voters. This file includes year to date figures for 2008."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2007.xls",
     "alt": "Voter Registration Statistics - 2007 PDF",
-    "text": "2007 Voter Registration Statistics - 2007 Statistics on the number of registered voters. This file includes year to date figures for 2007."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2007 Voter Registration Statistics - 2007 Statistics on the number of registered voters. This file includes year to date figures for 2007."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2006_0.xls",
     "alt": "Voter Registration Statistics - 2006 PDF",
-    "text": "2006 Voter Registration Statistics - 2006 Statistics on the number of registered voters. This file includes year to date figures for 2006."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2006 Voter Registration Statistics - 2006 Statistics on the number of registered voters. This file includes year to date figures for 2006."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg06.xls",
     "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "2006 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 2006."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2006 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 2006."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2005.xls",
     "alt": "Voter Registration Statistics - 2005 PDF",
-    "text": "2005 Voter Registration Statistics - 2005 Statistics on the number of registered voters. This file includes year to date figures for 2005."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/ALVR-2004_0.xls",
-    "alt": "Voter Registration Statistics - 2004 PDF",
-    "text": "2004 Voter Registration Statistics - 2004 Statistics on the number of registered voters. This file includes year to date figures for 2004."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/2004ge-countylevel_0.xls",
-    "alt": "General Election Results - County Level PDF",
-    "text": "2004 General Election Results - County Level Official election results certified by State Canvassing Board"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2005 Voter Registration Statistics - 2005 Statistics on the number of registered voters. This file includes year to date figures for 2005."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2004-GeneralElection-PrecinctLevel.zip",
     "alt": "General Election Results - Precinct Level (offices and amendments) PDF",
-    "text": "2004 General Election Results - Precinct Level (offices and amendments) This ZIP archive includes the precinct-level results from the November 2, 2004, general election."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2004 General Election Results - Precinct Level (offices and amendments) This ZIP archive includes the precinct-level results from the November 2, 2004, general election."
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/ALVR-2003.xls",
-    "alt": "Voter Registration Statistics - 2003 PDF",
-    "text": "2003 Voter Registration Statistics - 2003 Statistics on the number of registered voters. This file includes January through December 2003."
+    "href": "/sites/default/files/election-data/2017-06/ALVR-2004_0.xls",
+    "alt": "Voter Registration Statistics - 2004 PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2004 Voter Registration Statistics - 2004 Statistics on the number of registered voters. This file includes year to date figures for 2004."
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/20030909precinctlevel.xls",
-    "alt": "Special Constitutional Amendment Election Results - Precinct Level PDF",
-    "text": "2003 Special Constitutional Amendment Election Results - Precinct Level"
+    "href": "/sites/default/files/election-data/2017-06/2004ge-countylevel_0.xls",
+    "alt": "General Election Results - County Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2004 General Election Results - County Level Official election results certified by State Canvassing Board"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/20030909countylevel.xls",
     "alt": "Special Constitutional Amendment Election Results - County Level PDF",
-    "text": "2003 Special Constitutional Amendment Election Results - County Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2003 Special Constitutional Amendment Election Results - County Level"
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/2002-GeneralElection-PrecinctLevel_0.xls",
-    "alt": "General Election Results - Precinct Level PDF",
-    "text": "2002 General Election Results - Precinct Level"
+    "href": "/sites/default/files/election-data/2017-06/ALVR-2003.xls",
+    "alt": "Voter Registration Statistics - 2003 PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2003 Voter Registration Statistics - 2003 Statistics on the number of registered voters. This file includes January through December 2003."
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/d-certresults-06-21-02.xls",
-    "alt": "Primary Election Results - Democratic Party - County Level PDF",
-    "text": "2002 Primary Election Results - Democratic Party - County Level"
+    "href": "/sites/default/files/election-data/2017-06/20030909precinctlevel.xls",
+    "alt": "Special Constitutional Amendment Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2003 Special Constitutional Amendment Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/r-certresults-6-10-02.xls",
     "alt": "Primary Election Results - Republican Party - County Level PDF",
-    "text": "2002 Primary Election Results - Republican Party - County Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 Primary Election Results - Republican Party - County Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2002GeneralElectionTotals.XLS",
     "alt": "General Election Results - County Level (offices and amendments) PDF",
-    "text": "2002 General Election Results - County Level (offices and amendments) This file is the Microsoft Excel workbook of all county-level results from the 2002 general election."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 General Election Results - County Level (offices and amendments) This file is the Microsoft Excel workbook of all county-level results from the 2002 general election."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg02.xls",
     "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "2002 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 2002."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 2002."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2002prrprec.zip",
     "alt": "Primary Runoff Election Results - Precinct Level PDF",
-    "text": "2002 Primary Runoff Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 Primary Runoff Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-2002.xls",
     "alt": "Voter Registration Statistics - 2002 PDF",
-    "text": "2002 Voter Registration Statistics - 2002 Statistics on the number of registered voters. This file includes April through December 2002."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 Voter Registration Statistics - 2002 Statistics on the number of registered voters. This file includes April through December 2002."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/AL-2002-General-Certification_0.pdf",
     "alt": "General Election Results - County Level (offices and amendments) PDF",
-    "text": "2002 General Election Results - County Level (offices and amendments) This is the Adobe Acrobat version of the 2002 General Election results as certified by the state canvassing authority."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 General Election Results - County Level (offices and amendments) This is the Adobe Acrobat version of the 2002 General Election results as certified by the state canvassing authority."
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/readme_0.txt",
-    "alt": "Primary Runoff Election Results - List of Contents for Archive PDF",
-    "text": "2000 Primary Runoff Election Results - List of Contents for Archive"
+    "href": "/sites/default/files/election-data/2017-06/2002-GeneralElection-PrecinctLevel_0.xls",
+    "alt": "General Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 General Election Results - Precinct Level"
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/Wilcox-2000genp.xls",
-    "alt": "General Election Results - Wilcox County - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Wilcox County - Precinct Level (offices and amendments) Precinct level results for Wilcox County ONLY."
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000genp5.zip",
-    "alt": "General Election Results - Pack #5 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #5 - Precinct Level (offices and amendments) This file is Pack #5 of 7. It is approximately 420kb in size."
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000genp1.zip",
-    "alt": "General Election Results - Pack #1 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #1 - Precinct Level (offices and amendments) This file is Pack #1 of 7. It is approximately 8MB in size."
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000pp-e.zip",
-    "alt": "Primary Election Results - Precinct Level - File E PDF",
-    "text": "2000 Primary Election Results - Precinct Level - File E"
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/2000genp7.txt",
-    "alt": "General Election Results - Pack #7 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #7 - Precinct Level (README file) This is the README file for Pack #7 - It lists the counties included in the ZIP archive."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/060600cand.xls",
-    "alt": "Primary Election Candidate List PDF",
-    "text": "2000 Primary Election Candidate List"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000genp3.zip",
-    "alt": "General Election Results - Pack #3 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #3 - Precinct Level (offices and amendments) This file is Pack #3 of 7. It is approximately 1MB in size."
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000prp.zip",
-    "alt": "Primary Runoff Election Results - Precinct Level PDF",
-    "text": "2000 Primary Runoff Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000pp-a.zip",
-    "alt": "Primary Election Results - Precinct Level - File A PDF",
-    "text": "2000 Primary Election Results - Precinct Level - File A"
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/2000genp5.txt",
-    "alt": "General Election Results - Pack #5 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #5 - Precinct Level (README file) This is the README file for Pack #5 - It lists the counties included in the ZIP archive."
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000g-cty.zip",
-    "alt": "General Election Results - County Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - County Level (offices and amendments)"
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/readme.txt",
-    "alt": "Primary Election Results - Precinct Level - List of Contents for Archives A-E PDF",
-    "text": "2000 Primary Election Results - Precinct Level - List of Contents for Archives A-E"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000genpsup.zip",
-    "alt": "General Election results - Supplemental Pack - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election results - Supplemental Pack - Precinct Level (offices and amendments) This file is a Supplemental Pack. It contains reformatted versions of data previously included in Packs 1-5."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/2000genp3.txt",
-    "alt": "General Election Results - Pack #3 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #3 - Precinct Level (README file) This is the README file for Pack #3 - It lists the counties included in the ZIP archive."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/2000ge-tbc.xls",
-    "alt": "Total Ballots Cast - General Election PDF",
-    "text": "2000 Total Ballots Cast - General Election"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/2000pp-b.zip",
-    "alt": "Primary Election Results - Precinct Level - File B PDF",
-    "text": "2000 Primary Election Results - Precinct Level - File B"
+    "href": "/sites/default/files/election-data/2017-06/d-certresults-06-21-02.xls",
+    "alt": "Primary Election Results - Democratic Party - County Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2002 Primary Election Results - Democratic Party - County Level"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2000genp6.zip",
     "alt": "General Election Results - Pack #6 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #6 - Precinct Level (offices and amendments) This file is Pack #6 of 7. It is approximately 58kb in size."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #6 - Precinct Level (offices and amendments) This file is Pack #6 of 7. It is approximately 58kb in size."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2000genp1.txt",
     "alt": "General Election Results - Pack #1 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #1 - Precinct Level (README file) This is the README file for Pack #1 - It lists the counties included in the ZIP archive."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #1 - Precinct Level (README file) This is the README file for Pack #1 - It lists the counties included in the ZIP archive."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/06062000DEM.pdf",
     "alt": "Primary Election Results - Democratic Party (County Level) PDF",
-    "text": "2000 Primary Election Results - Democratic Party (County Level)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Democratic Party (County Level)"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2000genpsup.txt",
     "alt": "General Election Results - Supplemental Pack - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Supplemental Pack - Precinct Level (README file) This is the README file for the Supplemental Pack - This README file lists the counties included in the ZIP archive."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Supplemental Pack - Precinct Level (README file) This is the README file for the Supplemental Pack - This README file lists the counties included in the ZIP archive."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2000genp4.zip",
     "alt": "General Election Results - Pack #4 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #4 - Precinct Level (offices and amendments) This file is Pack #4 of 7. It is approximately 2MB in size."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #4 - Precinct Level (offices and amendments) This file is Pack #4 of 7. It is approximately 2MB in size."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2000pp-c.zip",
     "alt": "Primary Election Results - Precinct Level - File C PDF",
-    "text": "2000 Primary Election Results - Precinct Level - File C"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Precinct Level - File C"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2000genp6.txt",
     "alt": "General Election Results - Pack #6 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #6 - Precinct Level (README file) This is the README file for Pack #6 - It lists the counties included in the ZIP archive."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #6 - Precinct Level (README file) This is the README file for Pack #6 - It lists the counties included in the ZIP archive."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2000genp2.zip",
     "alt": "General Election Results - Pack #2 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #2 - Precinct Level (offices and amendments) This file is Pack #2 of 6. It is approximately 1.5MB in size."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #2 - Precinct Level (offices and amendments) This file is Pack #2 of 6. It is approximately 1.5MB in size."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/06062000REP.pdf",
     "alt": "Primary Election Results - Republican Party (County Level) PDF",
-    "text": "2000 Primary Election Results - Republican Party (County Level)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Republican Party (County Level)"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/Walker-2000genp.xls",
     "alt": "General Election Results - Walker County - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Walker County - Precinct Level (offices and amendments) Precinct level returns for Walker County ONLY."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Walker County - Precinct Level (offices and amendments) Precinct level returns for Walker County ONLY."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2000genp4.txt",
     "alt": "General Election Results - Pack #4 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #4 - Precinct Level (README file) This is the README file for Pack #4 - It lists the counties included in the ZIP archive."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #4 - Precinct Level (README file) This is the README file for Pack #4 - It lists the counties included in the ZIP archive."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2000pp-d.zip",
     "alt": "Primary Election Results - Precinct Level - File D PDF",
-    "text": "2000 Primary Election Results - Precinct Level - File D"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Precinct Level - File D"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/2000genp7.zip",
     "alt": "General Election Results - Pack #7 - Precinct Level (offices and amendments) PDF",
-    "text": "2000 General Election Results - Pack #7 - Precinct Level (offices and amendments) This file is Pack #7 of 7. It is approximately 41kb in size."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #7 - Precinct Level (offices and amendments) This file is Pack #7 of 7. It is approximately 41kb in size."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/2000genp2.txt",
     "alt": "General Election Results - Pack #2 - Precinct Level (README file) PDF",
-    "text": "2000 General Election Results - Pack #2 - Precinct Level (README file) This is the README file for Pack #2 - It lists the counties included in the ZIP archive."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #2 - Precinct Level (README file) This is the README file for Pack #2 - It lists the counties included in the ZIP archive."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/readme_0.txt",
+    "alt": "Primary Runoff Election Results - List of Contents for Archive PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Runoff Election Results - List of Contents for Archive"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/Wilcox-2000genp.xls",
+    "alt": "General Election Results - Wilcox County - Precinct Level (offices and amendments) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Wilcox County - Precinct Level (offices and amendments) Precinct level results for Wilcox County ONLY."
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000genp5.zip",
+    "alt": "General Election Results - Pack #5 - Precinct Level (offices and amendments) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #5 - Precinct Level (offices and amendments) This file is Pack #5 of 7. It is approximately 420kb in size."
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000genp1.zip",
+    "alt": "General Election Results - Pack #1 - Precinct Level (offices and amendments) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #1 - Precinct Level (offices and amendments) This file is Pack #1 of 7. It is approximately 8MB in size."
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000pp-e.zip",
+    "alt": "Primary Election Results - Precinct Level - File E PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Precinct Level - File E"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/2000genp7.txt",
+    "alt": "General Election Results - Pack #7 - Precinct Level (README file) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #7 - Precinct Level (README file) This is the README file for Pack #7 - It lists the counties included in the ZIP archive."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/060600cand.xls",
+    "alt": "Primary Election Candidate List PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Candidate List"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000genp3.zip",
+    "alt": "General Election Results - Pack #3 - Precinct Level (offices and amendments) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #3 - Precinct Level (offices and amendments) This file is Pack #3 of 7. It is approximately 1MB in size."
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000prp.zip",
+    "alt": "Primary Runoff Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Runoff Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000pp-a.zip",
+    "alt": "Primary Election Results - Precinct Level - File A PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Precinct Level - File A"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/2000genp5.txt",
+    "alt": "General Election Results - Pack #5 - Precinct Level (README file) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #5 - Precinct Level (README file) This is the README file for Pack #5 - It lists the counties included in the ZIP archive."
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000g-cty.zip",
+    "alt": "General Election Results - County Level (offices and amendments) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - County Level (offices and amendments)"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/readme.txt",
+    "alt": "Primary Election Results - Precinct Level - List of Contents for Archives A-E PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Precinct Level - List of Contents for Archives A-E"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000genpsup.zip",
+    "alt": "General Election results - Supplemental Pack - Precinct Level (offices and amendments) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election results - Supplemental Pack - Precinct Level (offices and amendments) This file is a Supplemental Pack. It contains reformatted versions of data previously included in Packs 1-5."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/2000genp3.txt",
+    "alt": "General Election Results - Pack #3 - Precinct Level (README file) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 General Election Results - Pack #3 - Precinct Level (README file) This is the README file for Pack #3 - It lists the counties included in the ZIP archive."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/2000ge-tbc.xls",
+    "alt": "Total Ballots Cast - General Election PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Total Ballots Cast - General Election"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/2000pp-b.zip",
+    "alt": "Primary Election Results - Precinct Level - File B PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "2000 Primary Election Results - Precinct Level - File B"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/1999sce.xls",
     "alt": "Special Constitutional Amendment Election - County Level Results PDF",
-    "text": "1999 Special Constitutional Amendment Election - County Level Results"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1999 Special Constitutional Amendment Election - County Level Results"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/1999sce.zip",
     "alt": "Special Constitutional Amendment Election - Precinct Level Results PDF",
-    "text": "1999 Special Constitutional Amendment Election - Precinct Level Results"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/98pri-dem.zip",
-    "alt": "Primary Election Results - Democratic Party (1st and 2nd primary) PDF",
-    "text": "1998 Primary Election Results - Democratic Party (1st and 2nd primary)"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/98p-prec.zip",
-    "alt": "Primary Election Results - Precinct Level PDF",
-    "text": "1998 Primary Election Results - Precinct Level"
-  },
-  {
-    "href": "/sites/default/files/election-data/2023-06/98pri-rep.zip",
-    "alt": "Primary Election Results - Republican Party (1st and 2nd primary) PDF",
-    "text": "1998 Primary Election Results - Republican Party (1st and 2nd primary)"
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/eastateleg98.xls",
-    "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "1998 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1998."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1999 Special Constitutional Amendment Election - Precinct Level Results"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/98g-cty.zip",
     "alt": "General Election Results - County Level (offices and amendments) PDF",
-    "text": "1998 General Election Results - County Level (offices and amendments)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1998 General Election Results - County Level (offices and amendments)"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/98g-prec.zip",
     "alt": "General Election Results - Precinct Level (offices and amendments) PDF",
-    "text": "1998 General Election Results - Precinct Level (offices and amendments)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1998 General Election Results - Precinct Level (offices and amendments)"
   },
   {
-    "href": "/sites/default/files/election-data/2023-06/96pri-dem.zip",
+    "href": "/sites/default/files/election-data/2023-06/98pri-dem.zip",
     "alt": "Primary Election Results - Democratic Party (1st and 2nd primary) PDF",
-    "text": "1996 Primary Election Results - Democratic Party (1st and 2nd primary)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1998 Primary Election Results - Democratic Party (1st and 2nd primary)"
   },
   {
-    "href": "/sites/default/files/election-data/2023-06/96pri-rep.zip",
+    "href": "/sites/default/files/election-data/2023-06/98p-prec.zip",
+    "alt": "Primary Election Results - Precinct Level PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1998 Primary Election Results - Precinct Level"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/98pri-rep.zip",
     "alt": "Primary Election Results - Republican Party (1st and 2nd primary) PDF",
-    "text": "1996 Primary Election Results - Republican Party (1st and 2nd primary)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1998 Primary Election Results - Republican Party (1st and 2nd primary)"
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/eastateleg98.xls",
+    "alt": "Election Results Archive - Alabama Legislature PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1998 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1998."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/96g-cty.zip",
     "alt": "General Election Results - County Level (offices and amendments) PDF",
-    "text": "1996 General Election Results - County Level (offices and amendments)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1996 General Election Results - County Level (offices and amendments)"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/96g-prec.zip",
     "alt": "General Election Results - Precinct Level (offices and amendments) PDF",
-    "text": "1996 General Election Results - Precinct Level (offices and amendments)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1996 General Election Results - Precinct Level (offices and amendments)"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/96pri-dem.zip",
+    "alt": "Primary Election Results - Democratic Party (1st and 2nd primary) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1996 Primary Election Results - Democratic Party (1st and 2nd primary)"
+  },
+  {
+    "href": "/sites/default/files/election-data/2023-06/96pri-rep.zip",
+    "alt": "Primary Election Results - Republican Party (1st and 2nd primary) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1996 Primary Election Results - Republican Party (1st and 2nd primary)"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg94.xls",
     "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "1994 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1994."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1994 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1994."
   },
   {
     "href": "/sites/default/files/election-data/2023-06/94g-prec.zip",
     "alt": "General Election Results - Precinct Level PDF",
-    "text": "1994 General Election Results - Precinct Level"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1994 General Election Results - Precinct Level"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/1992GeneralElection-CountyLevel.xls",
     "alt": "General Election Results - County Level (offices and amendments) PDF",
-    "text": "1992 General Election Results - County Level (offices and amendments)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1992 General Election Results - County Level (offices and amendments)"
   },
   {
     "href": "/sites/default/files/election-data/2023-06/92g-prec_0.zip",
     "alt": "General Election Results - Precinct Level (offices and amendments) PDF",
-    "text": "1992 General Election Results - Precinct Level (offices and amendments)"
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1992 General Election Results - Precinct Level (offices and amendments)"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg90.xls",
     "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "1990 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1990."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1990 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1990."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/turnout.pdf",
     "alt": "Voter Turnout PDF",
-    "text": "1986-2014 Voter Turnout"
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/easboe1986-2012.xls",
-    "alt": "Election Results Archive - State Board of Education PDF",
-    "text": "1986-2012 Election Results Archive - State Board of Education This file contains election results for state board of education races for 1986 through 2012."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2014 Voter Turnout"
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eapsc1986-2012.xls",
     "alt": "Election Results Archive - Public Service Commission PDF",
-    "text": "1986-2012 Election Results Archive - Public Service Commission This file contains election results for public service commission races for 1986 through 2008."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2012 Election Results Archive - Public Service Commission This file contains election results for public service commission races for 1986 through 2008."
   },
   {
-    "href": "/sites/default/files/election-data/2017-06/easecretaryofstate1986-2010_0.xls",
-    "alt": "Election Results Archive - Secretary of State  PDF",
-    "text": "1986-2010 Election Results Archive - Secretary of State This file contains election results for secretary of state races from 1986 to 2010."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/ealtgovernor1986-2010.xls",
-    "alt": "Election Results Archive - Lieutenant Governor (1986-2010) PDF",
-    "text": "1986-2010 Election Results Archive - Lieutenant Governor (1986-2010) This file contains election results for lieutenant governors races from 1986 to 2010."
-  },
-  {
-    "href": "/sites/default/files/election-data/2017-06/eaattorneygeneral1986-2010.xls",
-    "alt": "Election Results Archive - Attorney General PDF",
-    "text": "1986-2010 Election Results Archive - Attorney General This file contains election results for attorney general races for 1986 through 2006."
+    "href": "/sites/default/files/election-data/2017-06/easboe1986-2012.xls",
+    "alt": "Election Results Archive - State Board of Education PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2012 Election Results Archive - State Board of Education This file contains election results for state board of education races for 1986 through 2012."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eaauditor1986-2010.xls",
     "alt": "Election Results Archive - Auditor PDF",
-    "text": "1986-2010 Election Results Archive - Auditor This file contains election results for auditor races for 1986 through 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2010 Election Results Archive - Auditor This file contains election results for auditor races for 1986 through 2010."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eatreasurer1986-2010.xls",
     "alt": "Election Results Archive - Treasurer PDF",
-    "text": "1986-2010 Election Results Archive - Treasurer This file contains election results for treasurer races from 1986 to 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2010 Election Results Archive - Treasurer This file contains election results for treasurer races from 1986 to 2010."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eacommissionerag-and-ind1986-2010.xls",
     "alt": "Election Results Archive - Commissioner of Ag. and Ind. PDF",
-    "text": "1986-2010 Election Results Archive - Commissioner of Ag. and Ind. This file contains election results for commissioner of agriculture and industry races from 1986 to 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2010 Election Results Archive - Commissioner of Ag. and Ind. This file contains election results for commissioner of agriculture and industry races from 1986 to 2010."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/easecretaryofstate1986-2010_0.xls",
+    "alt": "Election Results Archive - Secretary of State  PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2010 Election Results Archive - Secretary of State This file contains election results for secretary of state races from 1986 to 2010."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/ealtgovernor1986-2010.xls",
+    "alt": "Election Results Archive - Lieutenant Governor (1986-2010) PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2010 Election Results Archive - Lieutenant Governor (1986-2010) This file contains election results for lieutenant governors races from 1986 to 2010."
+  },
+  {
+    "href": "/sites/default/files/election-data/2017-06/eaattorneygeneral1986-2010.xls",
+    "alt": "Election Results Archive - Attorney General PDF",
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986-2010 Election Results Archive - Attorney General This file contains election results for attorney general races for 1986 through 2006."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg86.xls",
     "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "1986 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1986."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1986 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1986."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg83.xls",
     "alt": "Election Results Archive - Alabama Legislature PDF",
-    "text": "1983 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1983."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1983 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1983."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eastateleg82.xls",
     "alt": "Election Results Archive - Alabama Legislature  PDF",
-    "text": "1982 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1982."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1982 Election Results Archive - Alabama Legislature This file contains election results for the Alabama House of Representatives and Alabama State Senate for the year 1982."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eapresidentprimary1980-2012.xls",
     "alt": "Election Results Archive - President - Primary Elections PDF",
-    "text": "1980-2012 Election Results Archive - President - Primary Elections This file contains presidential primary election results from 1980-2012."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1980-2012 Election Results Archive - President - Primary Elections This file contains presidential primary election results from 1980-2012."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eaushouse1980-2012_0.xls",
     "alt": "Election Results Archive - U.S. House of Representatives PDF",
-    "text": "1980-2012 Election Results Archive - U.S. House of Representatives This file contains election results for U.S. House races from 1980 to 2012."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1980-2012 Election Results Archive - U.S. House of Representatives This file contains election results for U.S. House races from 1980 to 2012."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/ALVR-Various-1980-2001_0.xls",
     "alt": "Voter Registration Statistics - Various Years PDF",
-    "text": "1980-2001 Voter Registration Statistics - Various Years Statistics on the number of registered voters. This file includes various months from 1980 through 2001."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1980-2001 Voter Registration Statistics - Various Years Statistics on the number of registered voters. This file includes various months from 1980 through 2001."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eapresidentgeneral1976-2012_0.xls",
     "alt": "Election Results Archive - President - General Elections PDF",
-    "text": "1976-2012 Election Results Archive - President - General Elections This file contains presidential general election results from 1976-2012."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1976-2012 Election Results Archive - President - General Elections This file contains presidential general election results from 1976-2012."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eaussenate1972-2010_0.xls",
     "alt": "Election Results Archive - U.S. Senate  PDF",
-    "text": "1972-2010 Election Results Archive - U.S. Senate This file contains election results for U.S. Senate races from 1972 to 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1972-2010 Election Results Archive - U.S. Senate This file contains election results for U.S. Senate races from 1972 to 2010."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/easupremecourt1970-2012_0.xls",
     "alt": "Election Results Archive - State Supreme Court  PDF",
-    "text": "1970-2012 Election Results Archive - State Supreme Court This file contains election results for Alabama's state Supreme Court races from 1970 to 2012."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1970-2012 Election Results Archive - State Supreme Court This file contains election results for Alabama's state Supreme Court races from 1970 to 2012."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/alwomenelectedofficials.xls",
     "alt": "Women Elected Officials in Alabama PDF",
-    "text": "1966-2004 Women Elected Officials in Alabama A listing of women elected to selected offices in the State of Alabama."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1966-2004 Women Elected Officials in Alabama A listing of women elected to selected offices in the State of Alabama."
   },
   {
     "href": "/sites/default/files/election-data/2017-06/eagovernor1946-2010.xls",
     "alt": "Election Results Archive - Governor PDF",
-    "text": "1946-2010 Election Results Archive - Governor This file contains election results for gubernatorial races from 1946 to 2010."
+    "text": "",
+    "tags": [
+      "MAIN",
+      "TABLE"
+    ],
+    "table": "1946-2010 Election Results Archive - Governor This file contains election results for gubernatorial races from 1946 to 2010."
   },
   {
-    "id": "block-voters",
     "href": "/alabama-votes/voter/absentee-voting",
-    "text": "Absentee Voting"
+    "text": "Absentee Voting",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/assistance-disability",
-    "text": "Assistance for Voters with Disabilities"
+    "title": "Assistance for Voters with Disabilities",
+    "text": "Assistance for Voters with Disabilities",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/city-county-lookup",
-    "text": "County Election Officials"
+    "text": "County Election Officials",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information",
-    "text": "Election Information"
+    "text": "Election Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-data",
-    "text": "Elections Data"
+    "text": "Elections Data",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/elected-official-map",
-    "text": "Find Your Elected Official Map"
+    "text": "Find Your Elected Official Map",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://myinfo.alabamavotes.gov/",
-    "text": "Find Your Polling Location"
+    "text": "Find Your Polling Location",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/military-overseas-voting",
-    "text": "Military/Overseas Voting"
+    "text": "Military/Overseas Voting",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/pollworker",
-    "text": "Poll Worker Information"
+    "title": "Poll Worker Information",
+    "text": "Poll Worker Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://myinfo.alabamavotes.gov/",
-    "text": "Provisional Ballot Status"
+    "text": "Provisional Ballot Status",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://arc-sos.state.al.us/cgi/vetform.mbr/form",
-    "text": "Vote in Honor of a Veteran"
+    "title": "Vote in Honor of a Veteran",
+    "text": "Vote in Honor of a Veteran",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/voter-id",
-    "text": "Voter ID requirements"
+    "text": "Voter ID requirements",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "text": "Voter Registration",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.info.alabama.gov/",
-    "text": "Alabama Directory"
+    "text": "Alabama Directory",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   }
 ]

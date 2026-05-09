@@ -4,269 +4,622 @@
     "text": "Braille Voter Guide"
   },
   {
-    "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
-  },
-  {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
-  },
-  {
-    "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
-  },
-  {
-    "href": "https://www.sos.alabama.gov/node/1533",
-    "text": "Oath of Office Information Center"
-  },
-  {
-    "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "href": "https://www.sos.alabama.gov/sos-office",
+    "title": "SOS Office Information",
+    "text": "SOS Office",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter%20List%20Request%20Form.pdf",
-    "text": "Voter List Fee Schedule"
+    "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
+    "title": "Fees and Funds Information",
+    "text": "Fees & Funds",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "text": "Elections"
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/node/1533",
-    "text": "Oath of Office Information Center"
+    "title": "Oath of Office Forms",
+    "text": "Oath of Office Information Center",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
-    "text": "Campaign Finance Records"
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office",
+    "title": "SOS Office Information",
+    "text": "SOS Office",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
+    "title": "Fees and Funds Information",
+    "text": "Fees & Funds",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "http://www.alabamavotes.gov/",
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/node/1533",
+    "title": "Oath of Office Forms",
+    "text": "Oath of Office Information Center",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes",
-    "text": "Search Alabama Votes"
+    "text": "Alabama Votes",
+    "tags": [
+      "SECTION"
+    ]
   },
   {
-    "id": "block-alabamavotesmenu",
     "href": "/alabama-votes/faqs",
-    "text": "FAQ"
+    "text": "FAQ",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information",
-    "text": "Voters"
+    "text": "Voters",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/candidates/candidate-resources",
-    "text": "Candidates"
+    "text": "Candidates",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/pac-resources",
-    "text": "PACs"
+    "text": "PACs",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/contact-us",
-    "text": "Contact Us"
-  },
-  {
-    "href": "/",
-    "text": "Election Information Home"
+    "text": "Contact Us",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes",
-    "text": "Alabama Votes"
+    "text": "Alabama Votes",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/avid",
-    "text": "Election Information Alabama Voter Integrity Database (AVID)"
+    "text": "Alabama Voter Integrity Database (AVID)",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
     "href": "https://myinfo.alabamavotes.gov/VoterView",
-    "text": "Check your registration status and see your political districts"
+    "title": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do",
+    "text": "Check your registration status and see your political districts",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
     "href": "http://sos.alabama.gov/alabama-votes/voter/help-america-vote-act",
-    "text": "Help America Vote Act"
+    "text": "Help America Vote Act",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/upcoming-elections",
-    "text": "Upcoming Elections"
+    "text": "Upcoming Elections",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
     "href": "http://sos.alabama.gov/alabama-votes/voter/voter-id",
-    "text": "Voter ID at the Polls"
+    "text": "Voter ID at the Polls",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2026/PhotoVoterIDGuide.pdf",
-    "text": "(download Photo Voter ID Guide"
+    "text": "Photo Voter ID Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
-    "href": "https://www.sos.alabama.gov/sites/default/files/election-data/2024-12/Comprehensive%20Voter%20Turnout%201986-2024.pdf",
-    "text": ") Voter Turnout (PDF)"
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-data/2024-12/Comprehensive Voter Turnout 1986-2024.pdf",
+    "text": "Voter Turnout (PDF)",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information/2026",
-    "text": "2026"
+    "text": "2026",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2026"
   },
   {
     "href": "/alabama-votes/voter/election-information/2025",
-    "text": "2025"
+    "text": "2025",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2026 2025"
   },
   {
     "href": "/alabama-votes/voter/election-information/2024",
-    "text": "2024"
+    "text": "2024",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2026 2025 2024"
   },
   {
     "href": "/alabama-votes/voter/election-information/2023",
-    "text": "2023"
+    "text": "2023",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2026 2025 2024 2023"
   },
   {
     "href": "/alabama-votes/voter/election-information/2022",
-    "text": "2022"
+    "text": "2022",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2022"
   },
   {
     "href": "/alabama-votes/voter/election-information/2021",
-    "text": "2021"
+    "text": "2021",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2022 2021"
   },
   {
     "href": "/alabama-votes/voter/election-information/2020",
-    "text": "2020"
+    "text": "2020",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2022 2021 2020"
   },
   {
     "href": "/alabama-votes/voter/election-information/2019",
-    "text": "2019"
+    "text": "2019",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2022 2021 2020 2019"
   },
   {
     "href": "/alabama-votes/voter/election-information/2018",
-    "text": "2018"
+    "text": "2018",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2018"
   },
   {
     "href": "/alabama-votes/voter/election-information/2017",
-    "text": "2017"
+    "text": "2017",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2018 2017"
   },
   {
     "href": "/alabama-votes/voter/election-information/2016",
-    "text": "2016"
+    "text": "2016",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2018 2017 2016"
   },
   {
     "href": "/alabama-votes/voter/election-information/2015/",
-    "text": "2015"
+    "text": "2015",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2018 2017 2016 2015"
   },
   {
     "href": "/alabama-votes/voter/election-information/2014/",
-    "text": "2014"
+    "text": "2014",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2014"
   },
   {
     "href": "/alabama-votes/voter/election-information/2013/",
-    "text": "2013"
+    "text": "2013",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2014 2013"
   },
   {
     "href": "/alabama-votes/voter/election-information/2012/",
-    "text": "2012"
+    "text": "2012",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2014 2013 2012"
   },
   {
     "href": "/alabama-votes/voter/election-information/2011/",
-    "text": "2011"
+    "text": "2011",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2014 2013 2012 2011"
   },
   {
     "href": "/alabama-votes/voter/election-information/2010/",
-    "text": "2010"
+    "text": "2010",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2010"
   },
   {
     "href": "/alabama-votes/voter/election-information/2009/",
-    "text": "2009"
+    "text": "2009",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2010 2009"
   },
   {
     "href": "/alabama-votes/voter/election-information/2008/",
-    "text": "2008"
+    "text": "2008",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2010 2009 2008"
   },
   {
     "href": "/alabama-votes/voter/election-information/2007/",
-    "text": "2007"
+    "text": "2007",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2010 2009 2008 2007"
   },
   {
     "href": "/alabama-votes/voter/election-information/2006/",
-    "text": "2006"
+    "text": "2006",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2006"
   },
   {
     "href": "/alabama-votes/voter/election-information/2005/",
-    "text": "2005"
+    "text": "2005",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2006 2005"
   },
   {
     "href": "/alabama-votes/voter/election-information/2004/",
-    "text": "2004"
+    "text": "2004",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2006 2005 2004"
   },
   {
     "href": "/alabama-votes/voter/election-information/2003/",
-    "text": "2003"
+    "text": "2003",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2006 2005 2004 2003"
   },
   {
     "href": "/alabama-votes/voter/election-information/2002/",
-    "text": "2002"
+    "text": "2002",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2002"
   },
   {
     "href": "/alabama-votes/voter/election-information/2001/",
-    "text": "2001"
+    "text": "2001",
+    "tags": [
+      "MAIN",
+      "ARTICLE",
+      "TABLE"
+    ],
+    "table": "2002 2001"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/election-data",
-    "text": "Additional election information, including election results, Voter Registration Statistics, and Comprehensive Voter Turnout can be found on the Elections Data"
+    "text": "Elections Data",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
   },
   {
-    "id": "block-voters",
     "href": "/alabama-votes/voter/absentee-voting",
-    "text": "webpage. Absentee Voting"
+    "text": "Absentee Voting",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/assistance-disability",
-    "text": "Assistance for Voters with Disabilities"
+    "title": "Assistance for Voters with Disabilities",
+    "text": "Assistance for Voters with Disabilities",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/city-county-lookup",
-    "text": "County Election Officials"
+    "text": "County Election Officials",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-information",
-    "text": "Election Information"
+    "text": "Election Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/election-data",
-    "text": "Elections Data"
+    "text": "Elections Data",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/elected-official-map",
-    "text": "Find Your Elected Official Map"
+    "text": "Find Your Elected Official Map",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://myinfo.alabamavotes.gov/",
-    "text": "Find Your Polling Location"
+    "text": "Find Your Polling Location",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/military-overseas-voting",
-    "text": "Military/Overseas Voting"
+    "text": "Military/Overseas Voting",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/pollworker",
-    "text": "Poll Worker Information"
+    "title": "Poll Worker Information",
+    "text": "Poll Worker Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://myinfo.alabamavotes.gov/",
-    "text": "Provisional Ballot Status"
+    "text": "Provisional Ballot Status",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "https://arc-sos.state.al.us/cgi/vetform.mbr/form",
-    "text": "Vote in Honor of a Veteran"
+    "title": "Vote in Honor of a Veteran",
+    "text": "Vote in Honor of a Veteran",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/voter-id",
-    "text": "Voter ID requirements"
+    "text": "Voter ID requirements",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "/alabama-votes/voter/register-to-vote",
-    "text": "Voter Registration"
+    "text": "Voter Registration",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
   },
   {
     "href": "http://www.info.alabama.gov/",
-    "text": "Alabama Directory"
+    "text": "Alabama Directory",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
   }
 ]

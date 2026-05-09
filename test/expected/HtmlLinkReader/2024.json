@@ -1,0 +1,1228 @@
+[
+  {
+    "href": "/contact/braille_voter_request_form",
+    "text": "Braille Voter Guide"
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office",
+    "title": "SOS Office Information",
+    "text": "SOS Office",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
+    "title": "Fees and Funds Information",
+    "text": "Fees & Funds",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "http://www.alabamavotes.gov/",
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/node/1533",
+    "title": "Oath of Office Forms",
+    "text": "Oath of Office Information Center",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office",
+    "title": "SOS Office Information",
+    "text": "SOS Office",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "title": "Voter Registration",
+    "text": "Voter Registration",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
+    "title": "Fees and Funds Information",
+    "text": "Fees & Funds",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
+    "title": "Voter List Fee Schedule",
+    "text": "Voter List Fee Schedule",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "http://www.alabamavotes.gov/",
+    "title": "Alabama's Official Election Center",
+    "text": "Elections",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/node/1533",
+    "title": "Oath of Office Forms",
+    "text": "Oath of Office Information Center",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
+    "text": "Campaign Finance Records",
+    "tags": [
+      "HEADER",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes",
+    "text": "Alabama Votes",
+    "tags": [
+      "SECTION"
+    ]
+  },
+  {
+    "href": "/alabama-votes/faqs",
+    "text": "FAQ",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/election-information",
+    "text": "Voters",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/candidates/candidate-resources",
+    "text": "Candidates",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/pac-resources",
+    "text": "PACs",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/contact-us",
+    "text": "Contact Us",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes",
+    "text": "Alabama Votes",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/election-information",
+    "text": "Election Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/sites/default/files/2024 Voter Guide.pdf",
+    "text": "2024 Voter Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2023 Candidate Filing Guide.pdf",
+    "text": "2024 Candidate Filing Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Candidate Filing Guidelines Revised 1.16.2023.pdf",
+    "text": "2024 Candidate Filing Guidelines",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024AdminCalendar.pdf",
+    "text": "2024 Election Administration Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024 FCPA Filing Calendar_1.pdf",
+    "text": "2024 FCPA Filing Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/2024 FCPA Municipal Filing Calendar - City of Huntsville%2C Mountain Brook%2C Scottsboro_0.pdf",
+    "text": "2024 FCPA Municipal Filing Calendar - City of Huntsville, Mountain Brook, Scottsboro",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/2024 Poll Worker Guide Complete.pdf",
+    "text": "2024 Poll Worker Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Presidential-Ballot-Access-Info-2024.pdf",
+    "text": "2024 Presidential Candidate Ballot Access",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/AbsenteeElectionManagerGuide.pdf",
+    "text": "Absentee Election Manager Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Associate Justice of the Supreme Court Judge Ballot Placements 2024 Election.pdf",
+    "text": "Associate Justice of the Supreme Court Judge Ballot Placements",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/CampaignAdvertisingGuidelines.pdf",
+    "text": "Campaign Advertisement Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Court of Civil Appeals Judge Ballot Placements 2024 Election.pdf",
+    "text": "Court of Civil Appeals Judge Ballot Placements",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Court of Criminal Appeals Judge Ballot Placements 2024 Election.pdf",
+    "text": "Court of Criminal Appeals Judge Ballot Placements",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/CrossOverVotingRules.pdf",
+    "text": "Cross Over Voting Rules",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Alabama Election Security.pdf",
+    "text": "Election Misinformation",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2023 Photo Voter ID Guide.pdf",
+    "text": "Photo Voter ID Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/ProvisionalBallotGuide.pdf",
+    "text": "Provisional Ballot Guide",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/VoterDriveGuidelines.pdf",
+    "text": "Voter Drive Guidelines",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Independent-Candiate-Info.pdf",
+    "text": "Information for prospective independent candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Independent Candidate Petition Form_0.pdf",
+    "text": "Sample Petition - Independent Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Presidential Independent Candidate Petition Form_1.pdf",
+    "text": "Sample Petition - Independent Presidential Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/Proposed-820-2-4_05-certification.pdf",
+    "text": "Administrative rule governing ballot access petitions for prospective independent candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Minor-Party-Info-2024.pdf",
+    "text": "Information for prospective minor political parties",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/Minor Party Independent Candidate Petition Form -20211110.pdf",
+    "text": "Sample Petition - Minor Political Party",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/Proposed-820-2-4_05-certification.pdf",
+    "text": "Administrative rule governing ballot access petitions for prospective minor political parties",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Admin Calendar - SD9.pdf",
+    "text": "Administrative Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/FCPA Calendar SD9.pdf",
+    "text": "FCPA Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Proclamation Register No. 15%2C p. 1960.pdf",
+    "text": "Special Election Proclamation",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Republican Party Certification of Candidates.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/State Certification of Republican Candidates-District 9.pdf",
+    "text": "State Certification of Republican Candidates for Primary Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2024/CertificationofSD-9Results.pdf",
+    "text": "Certification of Results - Republican Party",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2024/StateCertificationofResults-RepublicanParty-SD-9.pdf",
+    "text": "State Certification of Results - Republican Party",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Democratic Party Certification of Candidates.pdf",
+    "text": "Democratic Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/State Certification of Democratic Candidates-District 55.pdf",
+    "text": "State Certification of Democratic Candidate for General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Democratic Certifiication of House District 16 Candidate for General Election.pdf",
+    "text": "Democratic Certification of House District 16 Candidate for General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/Republican Certifiication of House District 16 Candidates for General Election.pdf",
+    "text": "Republican Certification of House District 16 Candidates for General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/State Certification of Democratic Candidates-District 16.pdf",
+    "text": "State Certification of Democratic Candidate for General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/State Certification of Republican Candidates-District 16.pdf",
+    "text": "State Certification of Republican Candidate for General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/State Certification of General Election-HD16.pdf",
+    "text": "State Certification of General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/alabama-votes/2024-primary-election-sample-ballots",
+    "text": "Sample Ballots",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Democratic Party Certification of Candidates.pdf",
+    "text": "Democratic Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Republican Party Certification of Candidates.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Democratic Party Certification of Candidates Amended-Primary-03-05-2024.pdf",
+    "text": "Democratic Party Amended Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Republican Party Certification of Candidates Amended-Primary-03-05-2024.pdf",
+    "text": "Republican Party Amended Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofConstitutionalAmendment-2024PrimaryElection.pdf",
+    "text": "State Certification of Constitutional Amendments for Primary Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofDemocraticPartyCandidates-2024PrimaryElection.pdf",
+    "text": "State Certification of Democratic Candidates for Primary Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanPartyCandidates-2024PrimaryElection.pdf",
+    "text": "State Certification of Republican Candidates for Primary Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024-PrimaryElection_UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanPartyOfficial-2024PrimaryResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Democratic_Party-Official_2024_Primary_Election_Results.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCanvassingBoardofConstitutionalAmendments-2024.pdf",
+    "text": "State Canvassing Board Certification of Constitutional Amendments",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanPartyOfficial-2024PrimaryResult-Amended.xlsx",
+    "text": "Amended Primary Election Results",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/HD 10 Special Election Calendar.pdf",
+    "text": "Administrative Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/FCPA Calendar HD10 Special Election.pdf",
+    "text": "FCPA Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/Election Proclamation - HD10.pdf",
+    "text": "Special Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/Election Proclamation - HD10.pdf",
+    "text": "Proclamation",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/2023-09-11 Letter to Judge Barger.pdf",
+    "text": "Letter to Judge Barger",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/Writ of Election - HD10.pdf",
+    "text": "Writ of Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/AL Democratic Party Certification of Candidates - HD10 Primary.pdf",
+    "text": "Democratic Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2023/AL Republican Party Certification of Candidates - HD10 Primary.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2023/State Certification of Republican Primary Candidates.pdf",
+    "text": "State Certification of Republican Primary Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "https://www.sos.alabama.gov/sites/default/files/election-2023/State Certification of Democratic Primary Candidates.pdf",
+    "text": "State Certification of Democratic Primary Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/HD10SpecialGeneralElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofGeneralElectionResults-HD10.pdf",
+    "text": "State Certification of General Election Results",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Admin Calendar - HD27.pdf",
+    "text": "Administrative Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/FCPA Calendar HD27.pdf",
+    "text": "FCPA Filing Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Proclamation for HD27.pdf",
+    "text": "Special Election Proclamation",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024-01-24 Letter to Marshall County JOP.pdf",
+    "text": "Letter to Judge Lecroy",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Writ of Election HD27.pdf",
+    "text": "Writ of Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidates-HD27.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanPartyCandidates-HD27.pdf",
+    "text": "State Certification of Republican Party Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/HD27SpecialPrimaryElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/alabama-votes/2024-primary-runoff-election-sample-ballots",
+    "text": "Sample Ballots",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidates-Runoff.pdf",
+    "text": "Democratic Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidates-Runoff.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofDemocraticCandidates-PrimaryRunoff.pdf",
+    "text": "State Certification of Democratic Party Candidates for Primary Runoff Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-PrimaryRunoff.pdf",
+    "text": "State Certification of Republican Party Candidates for Primary Runoff Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024PrimaryRunoffElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024PrimaryRunoffRepublicanCandidateResults.pdf",
+    "text": "Republican Party",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/2024PrimaryRunoffDemocraticCandidateResults.pdf",
+    "text": "Democratic Party",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanCertificationofCandidatesSpecialRunoffHD-27.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-SpecialPrimaryRunoff.pdf",
+    "text": "State Certification of Republican Party Candidates for HD 27 Primary Runoff Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanCertificationofResults-SpecialRunoffHD-27.pdf",
+    "text": "Republican Party",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRunoffResults-HD-27.pdf",
+    "text": "State Certification of Runoff Election Results",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/HD27SpecialPrimaryRunoffElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/AdminCalendar-HD52.pdf",
+    "text": "Administrative Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/FCPA Calendar HD 52 FINAL.pdf",
+    "text": "FCPA Calendar",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Special Election Proclamation - HD52.pdf",
+    "text": "Special Election Proclamation",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/Writ of Election - HD52.pdf",
+    "text": "Writ of Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidates-HD52.pdf",
+    "text": "Republican Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidates-HD52.pdf",
+    "text": "Democratic Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofDemocraticCandidates-HD52Primary.pdf",
+    "text": "State Certification of Democratic Party Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-HD52Primary.pdf",
+    "text": "State Certification of Republican Party Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/HD52SpecialPrimaryElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidates-HD52-Runoff.pdf",
+    "text": "Democratic Party Certification of Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofDemocraticPartyCandidates-HD52PrimaryRunoff.pdf",
+    "text": "State Certification of Democratic Party Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/HD52SpecialPrimaryRunoffElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidate-SpecialGeneral-HD-52.pdf",
+    "text": "Democratic Party Certification of Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidate-SpecialGeneral-HD-52.pdf",
+    "text": "Republican Party Certification of Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofDemocraticPartyCandidate-SpecialGeneral-HD52.pdf",
+    "text": "State Certification of Democratic Party Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanPartyCandidate-SpecialGeneral-HD52.pdf",
+    "text": "State Certification of Republican Party Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofGeneralElection-HD52.pdf",
+    "text": "State Certification of General Election",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/HD52SpecialGeneralElection-UnofficialResults.xlsx",
+    "text": "Excel file with vote totals",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/alabama-votes/2024-general-election-sample-ballots",
+    "text": "Sample Ballots",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/sample-ballots/2024/gen/2024GeneralStatewideGenericBack.pdf",
+    "text": "Constitutional Amendment Sample Ballot",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/CertificationofRepublicanPartyCandidatesandElectors2024General.pdf",
+    "text": "Certification of Republican Party Candidates and Electors",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/CertificationofDemocraticPartyCandidatesandElectors2024General.pdf",
+    "text": "Certification of Democratic Party Candidates and Electors",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/CertificationofDemocraticPartyAmendedCandidatesandElectors.pdf",
+    "text": "Certification of Democratic Party Amended Candidates and Electors",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofConstitutionalAmendments-General2024.pdf",
+    "text": "State Certification of Constitutional Amendments",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofDemocraticCandidates-General2024.pdf",
+    "text": "State Certification of Democratic Party Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-General2024.pdf",
+    "text": "State Certification of Republican Party Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofIndependentCandidate-General2024.pdf",
+    "text": "State Certification of Independent Candidate",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofPresidentialIndependentCandidates-General2024.pdf",
+    "text": "State Certification of Presidential Independent Candidates",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/State Certification of 2024 General Election.pdf",
+    "text": "Final Canvass of Results",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/sites/default/files/election-2024/StateCertificationofMonroeCountyRecountResults-2024.pdf",
+    "text": "State Certification of Monroe County Recount Results",
+    "tags": [
+      "MAIN",
+      "ARTICLE"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/absentee-voting",
+    "text": "Absentee Voting",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/assistance-disability",
+    "title": "Assistance for Voters with Disabilities",
+    "text": "Assistance for Voters with Disabilities",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/city-county-lookup",
+    "text": "County Election Officials",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/election-information",
+    "text": "Election Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/election-data",
+    "text": "Elections Data",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/elected-official-map",
+    "text": "Find Your Elected Official Map",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://myinfo.alabamavotes.gov/",
+    "text": "Find Your Polling Location",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/military-overseas-voting",
+    "text": "Military/Overseas Voting",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/pollworker",
+    "title": "Poll Worker Information",
+    "text": "Poll Worker Information",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://myinfo.alabamavotes.gov/",
+    "text": "Provisional Ballot Status",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "https://arc-sos.state.al.us/cgi/vetform.mbr/form",
+    "title": "Vote in Honor of a Veteran",
+    "text": "Vote in Honor of a Veteran",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/voter-id",
+    "text": "Voter ID requirements",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "/alabama-votes/voter/register-to-vote",
+    "text": "Voter Registration",
+    "tags": [
+      "MAIN",
+      "NAV"
+    ]
+  },
+  {
+    "href": "http://www.info.alabama.gov/",
+    "text": "Alabama Directory",
+    "tags": [
+      "SECTION",
+      "NAV"
+    ]
+  }
+]
