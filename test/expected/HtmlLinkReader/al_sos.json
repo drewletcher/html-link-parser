@@ -10,7 +10,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
@@ -19,7 +20,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "http://www.alabamavotes.gov/",
@@ -28,7 +30,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
@@ -36,7 +39,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
@@ -45,7 +49,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
@@ -54,7 +59,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "http://www.alabamavotes.gov/",
@@ -63,7 +69,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
@@ -71,22 +78,24 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/2026-primary-election-sample-ballots",
     "text": "View the 2026 Primary Election Sample Ballots",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Official Website of the Alabama Secretary of State"
   },
   {
     "href": "http://www.alabamavotes.gov/",
-    "alt": "Voting Icon",
     "text": "Voting In Alabama",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Official Website of the Alabama Secretary of State"
   },
   {
     "href": "/newsroom/secretary-state-wes-allen-may-19-primary-election-proceed-planned",

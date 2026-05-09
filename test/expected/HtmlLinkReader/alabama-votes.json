@@ -10,7 +10,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
@@ -19,7 +20,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "http://www.alabamavotes.gov/",
@@ -28,7 +30,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
@@ -36,7 +39,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
@@ -45,7 +49,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
@@ -54,7 +59,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "http://www.alabamavotes.gov/",
@@ -63,7 +69,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
@@ -71,14 +78,16 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "/alabama-votes",
     "text": "Alabama Votes",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "/alabama-votes/faqs",
@@ -86,7 +95,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/voter/election-information",
@@ -94,7 +104,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/candidates/candidate-resources",
@@ -102,7 +113,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/pac-resources",
@@ -110,7 +122,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/contact-us",
@@ -118,101 +131,110 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
+    "alt": "Wes Allen",
     "href": "https://www.sos.alabama.gov/alabama-votes/2026-primary-election-sample-ballots",
     "text": "View the 2026 Primary Election Sample Ballots",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/register-to-vote",
     "alt": "Voter Registration",
+    "href": "/alabama-votes/register-to-vote",
     "text": "Voter Registration / Update Registration",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/voter/election-information",
     "alt": "Election Information Icon",
+    "href": "/alabama-votes/voter/election-information",
     "text": "Election Information",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "href": "https://myinfo.alabamavotes.gov/voterview",
-    "alt": "My Polling Place Icon",
     "text": "My Voting Information",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "href": "/alabama-votes/absentee-voting",
-    "alt": "Absentee Voting Icon",
     "text": "Absentee Voting",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
-    "href": "https://www.alabamainteractive.org/sos/voter/voterWelcome.action",
     "alt": "Voter List Icon",
+    "href": "https://www.alabamainteractive.org/sos/voter/voterWelcome.action",
     "text": "Purchase Voter List",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "href": "/alabama-votes/voter/ballot-measures/statewide",
-    "alt": "Ballot Measures Icon",
     "text": "Proposed Statewide Constitutional Amendments",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/upcoming-elections",
     "alt": "Upcoming Elections Icon",
+    "href": "/alabama-votes/upcoming-elections",
     "text": "Upcoming Elections",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "href": "/alabama-votes/state-district-maps",
-    "alt": "State Districts Icon",
     "text": "State District Maps",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "href": "/alabama-votes/campaign-finance-reports",
-    "alt": "Campaign Finance Icon",
     "text": "Campaign Finance",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/photo-voter-id",
     "alt": "Photo Voter ID Icon",
+    "href": "/alabama-votes/photo-voter-id",
     "text": "Photo Voter ID",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "href": "http://www.stopvoterfraudnow.com/",
     "text": "STOP VOTER FRAUD NOW",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "alt": "Election Assistance Commission",
@@ -220,7 +242,8 @@
     "text": "",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   },
   {
     "alt": "Federal Election Commission",
@@ -228,6 +251,7 @@
     "text": "",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Alabama Votes"
   }
 ]

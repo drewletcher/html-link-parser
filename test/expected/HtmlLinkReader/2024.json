@@ -10,7 +10,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
@@ -19,7 +20,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
@@ -28,7 +30,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
@@ -37,7 +40,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "http://www.alabamavotes.gov/",
@@ -46,7 +50,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/node/1533",
@@ -55,7 +60,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
@@ -63,7 +69,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sos-office",
@@ -72,7 +79,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
@@ -81,7 +89,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sos-office/fees-funds",
@@ -90,7 +99,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Voter List Request Form.pdf",
@@ -99,7 +109,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "http://www.alabamavotes.gov/",
@@ -108,7 +119,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/node/1533",
@@ -117,7 +129,8 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "https://www.sos.alabama.gov/alabama-votes/media/campaign-finance-reports",
@@ -125,14 +138,16 @@
     "tags": [
       "HEADER",
       "NAV"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "/alabama-votes",
     "text": "Alabama Votes",
     "tags": [
       "SECTION"
-    ]
+    ],
+    "heading": "Main navigation"
   },
   {
     "href": "/alabama-votes/faqs",
@@ -140,7 +155,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/voter/election-information",
@@ -148,7 +164,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/candidates/candidate-resources",
@@ -156,7 +173,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/pac-resources",
@@ -164,7 +182,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes/contact-us",
@@ -172,7 +191,8 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Alabama Votes Menu"
   },
   {
     "href": "/alabama-votes",
@@ -180,7 +200,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Breadcrumb"
   },
   {
     "href": "/alabama-votes/voter/election-information",
@@ -188,7 +209,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Breadcrumb"
   },
   {
     "href": "/sites/default/files/2024 Voter Guide.pdf",
@@ -196,7 +218,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/2023 Candidate Filing Guide.pdf",
@@ -204,7 +227,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/Candidate Filing Guidelines Revised 1.16.2023.pdf",
@@ -212,7 +236,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/2024AdminCalendar.pdf",
@@ -220,7 +245,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/2024 FCPA Filing Calendar_1.pdf",
@@ -228,7 +254,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/2024 FCPA Municipal Filing Calendar - City of Huntsville%2C Mountain Brook%2C Scottsboro_0.pdf",
@@ -236,7 +263,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/2024 Poll Worker Guide Complete.pdf",
@@ -244,7 +272,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/Presidential-Ballot-Access-Info-2024.pdf",
@@ -252,7 +281,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/AbsenteeElectionManagerGuide.pdf",
@@ -260,7 +290,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/Associate Justice of the Supreme Court Judge Ballot Placements 2024 Election.pdf",
@@ -268,7 +299,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/CampaignAdvertisingGuidelines.pdf",
@@ -276,7 +308,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/Court of Civil Appeals Judge Ballot Placements 2024 Election.pdf",
@@ -284,7 +317,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/Court of Criminal Appeals Judge Ballot Placements 2024 Election.pdf",
@@ -292,7 +326,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/CrossOverVotingRules.pdf",
@@ -300,7 +335,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/Alabama Election Security.pdf",
@@ -308,7 +344,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/2023 Photo Voter ID Guide.pdf",
@@ -316,7 +353,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/ProvisionalBallotGuide.pdf",
@@ -324,7 +362,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/VoterDriveGuidelines.pdf",
@@ -332,7 +371,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/Independent-Candiate-Info.pdf",
@@ -340,7 +380,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/Independent Candidate Petition Form_0.pdf",
@@ -348,7 +389,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/Presidential Independent Candidate Petition Form_1.pdf",
@@ -356,7 +398,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/Proposed-820-2-4_05-certification.pdf",
@@ -364,7 +407,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/election-2024/Minor-Party-Info-2024.pdf",
@@ -372,7 +416,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/Minor Party Independent Candidate Petition Form -20211110.pdf",
@@ -380,7 +425,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2022/Proposed-820-2-4_05-certification.pdf",
@@ -388,7 +434,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Information and Resources"
   },
   {
     "href": "/sites/default/files/Admin Calendar - SD9.pdf",
@@ -396,7 +443,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "/sites/default/files/FCPA Calendar SD9.pdf",
@@ -404,7 +452,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "/sites/default/files/Proclamation Register No. 15%2C p. 1960.pdf",
@@ -412,7 +461,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "/sites/default/files/Republican Party Certification of Candidates.pdf",
@@ -420,7 +470,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/State Certification of Republican Candidates-District 9.pdf",
@@ -428,7 +479,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2024/CertificationofSD-9Results.pdf",
@@ -436,7 +488,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2024/StateCertificationofResults-RepublicanParty-SD-9.pdf",
@@ -444,7 +497,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "State Senate District 9 Special Primary Election - January 9, 2024"
   },
   {
     "href": "/sites/default/files/Democratic Party Certification of Candidates.pdf",
@@ -452,7 +506,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 55 - January 9, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/State Certification of Democratic Candidates-District 55.pdf",
@@ -460,7 +515,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 55 - January 9, 2024"
   },
   {
     "href": "/sites/default/files/Democratic Certifiication of House District 16 Candidate for General Election.pdf",
@@ -468,7 +524,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 16 - January 9, 2024"
   },
   {
     "href": "/sites/default/files/Republican Certifiication of House District 16 Candidates for General Election.pdf",
@@ -476,7 +533,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 16 - January 9, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/State Certification of Democratic Candidates-District 16.pdf",
@@ -484,7 +542,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 16 - January 9, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/State Certification of Republican Candidates-District 16.pdf",
@@ -492,7 +551,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 16 - January 9, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/State Certification of General Election-HD16.pdf",
@@ -500,7 +560,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 16 - January 9, 2024"
   },
   {
     "href": "/alabama-votes/2024-primary-election-sample-ballots",
@@ -508,7 +569,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Democratic Party Certification of Candidates.pdf",
@@ -516,7 +578,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Republican Party Certification of Candidates.pdf",
@@ -524,7 +587,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Democratic Party Certification of Candidates Amended-Primary-03-05-2024.pdf",
@@ -532,7 +596,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Republican Party Certification of Candidates Amended-Primary-03-05-2024.pdf",
@@ -540,7 +605,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofConstitutionalAmendment-2024PrimaryElection.pdf",
@@ -548,7 +614,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofDemocraticPartyCandidates-2024PrimaryElection.pdf",
@@ -556,7 +623,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanPartyCandidates-2024PrimaryElection.pdf",
@@ -564,7 +632,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/2024-PrimaryElection_UnofficialResults.xlsx",
@@ -572,7 +641,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanPartyOfficial-2024PrimaryResults.xlsx",
@@ -580,7 +650,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Democratic_Party-Official_2024_Primary_Election_Results.xlsx",
@@ -588,7 +659,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCanvassingBoardofConstitutionalAmendments-2024.pdf",
@@ -596,7 +668,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanPartyOfficial-2024PrimaryResult-Amended.xlsx",
@@ -604,7 +677,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Election - March 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/HD 10 Special Election Calendar.pdf",
@@ -612,7 +686,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/FCPA Calendar HD10 Special Election.pdf",
@@ -620,7 +695,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/Election Proclamation - HD10.pdf",
@@ -628,7 +704,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/Election Proclamation - HD10.pdf",
@@ -636,7 +713,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/2023-09-11 Letter to Judge Barger.pdf",
@@ -644,7 +722,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/Writ of Election - HD10.pdf",
@@ -652,7 +731,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/AL Democratic Party Certification of Candidates - HD10 Primary.pdf",
@@ -660,7 +740,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2023/AL Republican Party Certification of Candidates - HD10 Primary.pdf",
@@ -668,7 +749,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2023/State Certification of Republican Primary Candidates.pdf",
@@ -676,7 +758,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "https://www.sos.alabama.gov/sites/default/files/election-2023/State Certification of Democratic Primary Candidates.pdf",
@@ -684,7 +767,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/HD10SpecialGeneralElection-UnofficialResults.xlsx",
@@ -692,7 +776,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofGeneralElectionResults-HD10.pdf",
@@ -700,7 +785,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 10 - March 26, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Admin Calendar - HD27.pdf",
@@ -708,7 +794,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/FCPA Calendar HD27.pdf",
@@ -716,7 +803,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Proclamation for HD27.pdf",
@@ -724,7 +812,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/2024-01-24 Letter to Marshall County JOP.pdf",
@@ -732,7 +821,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Writ of Election HD27.pdf",
@@ -740,7 +830,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidates-HD27.pdf",
@@ -748,7 +839,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanPartyCandidates-HD27.pdf",
@@ -756,7 +848,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/HD27SpecialPrimaryElection-UnofficialResults.xlsx",
@@ -764,7 +857,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 27 – April 2, 2024"
   },
   {
     "href": "/alabama-votes/2024-primary-runoff-election-sample-ballots",
@@ -772,7 +866,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidates-Runoff.pdf",
@@ -780,7 +875,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidates-Runoff.pdf",
@@ -788,7 +884,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofDemocraticCandidates-PrimaryRunoff.pdf",
@@ -796,7 +893,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-PrimaryRunoff.pdf",
@@ -804,7 +902,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/2024PrimaryRunoffElection-UnofficialResults.xlsx",
@@ -812,7 +911,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/2024PrimaryRunoffRepublicanCandidateResults.pdf",
@@ -820,7 +920,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/2024PrimaryRunoffDemocraticCandidateResults.pdf",
@@ -828,7 +929,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Primary Runoff - April 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanCertificationofCandidatesSpecialRunoffHD-27.pdf",
@@ -836,7 +938,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 27 – April 30, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-SpecialPrimaryRunoff.pdf",
@@ -844,7 +947,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 27 – April 30, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanCertificationofResults-SpecialRunoffHD-27.pdf",
@@ -852,7 +956,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 27 – April 30, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRunoffResults-HD-27.pdf",
@@ -860,7 +965,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 27 – April 30, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/HD27SpecialPrimaryRunoffElection-UnofficialResults.xlsx",
@@ -868,7 +974,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 27 – April 30, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/AdminCalendar-HD52.pdf",
@@ -876,7 +983,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/FCPA Calendar HD 52 FINAL.pdf",
@@ -884,7 +992,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Special Election Proclamation - HD52.pdf",
@@ -892,7 +1001,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/Writ of Election - HD52.pdf",
@@ -900,7 +1010,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidates-HD52.pdf",
@@ -908,7 +1019,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidates-HD52.pdf",
@@ -916,7 +1028,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofDemocraticCandidates-HD52Primary.pdf",
@@ -924,7 +1037,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-HD52Primary.pdf",
@@ -932,7 +1046,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/HD52SpecialPrimaryElection-UnofficialResults.xlsx",
@@ -940,7 +1055,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Election House District 52 – June 18, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidates-HD52-Runoff.pdf",
@@ -948,7 +1064,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 52 – July 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofDemocraticPartyCandidates-HD52PrimaryRunoff.pdf",
@@ -956,7 +1073,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 52 – July 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/HD52SpecialPrimaryRunoffElection-UnofficialResults.xlsx",
@@ -964,7 +1082,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special Primary Runoff Election House District 52 – July 16, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/DemocraticPartyCertificationofCandidate-SpecialGeneral-HD-52.pdf",
@@ -972,7 +1091,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 52 – October 1, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/RepublicanPartyCertificationofCandidate-SpecialGeneral-HD-52.pdf",
@@ -980,7 +1100,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 52 – October 1, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofDemocraticPartyCandidate-SpecialGeneral-HD52.pdf",
@@ -988,7 +1109,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 52 – October 1, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanPartyCandidate-SpecialGeneral-HD52.pdf",
@@ -996,7 +1118,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 52 – October 1, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofGeneralElection-HD52.pdf",
@@ -1004,7 +1127,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 52 – October 1, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/HD52SpecialGeneralElection-UnofficialResults.xlsx",
@@ -1012,7 +1136,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "Special General Election House District 52 – October 1, 2024"
   },
   {
     "href": "/alabama-votes/2024-general-election-sample-ballots",
@@ -1020,7 +1145,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/sample-ballots/2024/gen/2024GeneralStatewideGenericBack.pdf",
@@ -1028,7 +1154,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/CertificationofRepublicanPartyCandidatesandElectors2024General.pdf",
@@ -1036,7 +1163,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/CertificationofDemocraticPartyCandidatesandElectors2024General.pdf",
@@ -1044,7 +1172,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/CertificationofDemocraticPartyAmendedCandidatesandElectors.pdf",
@@ -1052,7 +1181,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofConstitutionalAmendments-General2024.pdf",
@@ -1060,7 +1190,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofDemocraticCandidates-General2024.pdf",
@@ -1068,7 +1199,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofRepublicanCandidates-General2024.pdf",
@@ -1076,7 +1208,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofIndependentCandidate-General2024.pdf",
@@ -1084,7 +1217,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofPresidentialIndependentCandidates-General2024.pdf",
@@ -1092,7 +1226,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/State Certification of 2024 General Election.pdf",
@@ -1100,7 +1235,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/sites/default/files/election-2024/StateCertificationofMonroeCountyRecountResults-2024.pdf",
@@ -1108,7 +1244,8 @@
     "tags": [
       "MAIN",
       "ARTICLE"
-    ]
+    ],
+    "heading": "General Election - November 5, 2024"
   },
   {
     "href": "/alabama-votes/voter/absentee-voting",
@@ -1116,7 +1253,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/assistance-disability",
@@ -1125,7 +1263,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/city-county-lookup",
@@ -1133,7 +1272,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/election-information",
@@ -1141,7 +1281,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/election-data",
@@ -1149,7 +1290,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/elected-official-map",
@@ -1157,7 +1299,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "https://myinfo.alabamavotes.gov/",
@@ -1165,7 +1308,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/military-overseas-voting",
@@ -1173,7 +1317,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/pollworker",
@@ -1182,7 +1327,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "https://myinfo.alabamavotes.gov/",
@@ -1190,7 +1336,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "https://arc-sos.state.al.us/cgi/vetform.mbr/form",
@@ -1199,7 +1346,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/voter-id",
@@ -1207,7 +1355,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "/alabama-votes/voter/register-to-vote",
@@ -1215,7 +1364,8 @@
     "tags": [
       "MAIN",
       "NAV"
-    ]
+    ],
+    "heading": "Voters"
   },
   {
     "href": "http://www.info.alabama.gov/",
@@ -1223,6 +1373,7 @@
     "tags": [
       "SECTION",
       "NAV"
-    ]
+    ],
+    "heading": "Footer menu"
   }
 ]

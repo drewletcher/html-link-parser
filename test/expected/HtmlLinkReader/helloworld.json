@@ -1,3 +1,8 @@
 [
-{"href":"https://world.com","id":"global","text":"Hello World!"}
+  {
+    "href": "https://world.com",
+    "id": "global",
+    "text": "Hello World!",
+    "heading": "Greetings"
+  }
 ]

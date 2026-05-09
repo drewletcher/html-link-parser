@@ -2,6 +2,7 @@
   {
     "href": "https://world.com",
     "id": "global",
-    "text": "Hello World!"
+    "text": "Hello World!",
+    "heading": "Greetings"
   }
 ]
