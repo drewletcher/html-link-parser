@@ -1,10 +1,15 @@
 {
   "url": "",
   "output": "",
+  "tag": null,
   "heading": null,
-  "href": null,
-  "text": null,
-  "id": null,
+  "attributes": [
+    "HREF",
+    "ID",
+    "ALT",
+    "TITLE"
+  ],
+  "terms": [],
   "trim": true,
   "http": {
     "method": "GET",

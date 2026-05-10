@@ -27,7 +27,7 @@ var options = {
 /**
  * parseArgs
  *   only filename is required
- *   example ["node.exe", "html-link-parser.js", <filename.html|URL>, <output>, "--heading=title" ]
+ *   example ["node.exe", "html-link-parser.js", <filename.html|URL>, <output>, --tag="HTML TAG" --heading="title" --terms="term1,term2,..." ]
  */
 async function parseArgs() {
   let clOptions = {}; // command line options
@@ -49,6 +49,8 @@ async function parseArgs() {
 
       if (nv[ 0 ] === "--options")
         optionsfile = nv[ 1 ];
+      else if (nv[ 0 ] === "--tag")
+        clOptions.tag = nv[ 1 ];
       else if (nv[ 0 ] === "--heading")
         clOptions.heading = nv[ 1 ];
       else if (nv[ 0 ] === "--terms")
@@ -98,15 +100,14 @@ async function parseArgs() {
     console.log("");
     console.log("Parse tabular data from a HTML file.");
     console.log("");
-    console.log("hlp <filename.html|URL> <output> --options=filename.json --heading=string --href=string --text=string --id=name");
+    console.log("hlp <filename.html|URL> <output> --options=filename.json --tag=tag --heading=term --terms=term1,term2,...");
     console.log("");
-    console.log("  filename|URL - path name or URL of HTML file to process, required.");
-    console.log("  output       - local path name for output of parsed data, default stdout.");
-    console.log("  --options    - JSON or JSONC file containing hlp options, default: hlp.options.json.");
-    console.log("  --heading    - text of heading to find in document that precedes desired hyperlinks, default none.");
-    console.log("  --href       - text to match in the link href attribute, default: none (all links).");
-    console.log("  --text       - text to match in the link text, default: none (all links).");
-    console.log("  --id         - A element id attribute to find in document.");
+    console.log("  filename|URL - path name or URL of HTML file to process; required.");
+    console.log("  output       - local path name for output of parsed data; default stdout.");
+    console.log("  --options    - JSON or JSONC file containing hlp options; default: hlp.options.json.");
+    console.log("  --tag        - HTML section tag that contains desired hyperlinks, e.g. 'NAV'; default: none.")
+    console.log("  --heading    - term to match in heading (H1,H2,...) that precedes desired hyperlinks; default: none.");
+    console.log("  --terms      - term(s) to match in A attributes and text, separate terms with commas; default: none (all links).");
     console.log("");
     return;
   }

@@ -1,12 +1,14 @@
-# html-link-parser 1.0.x
+# html-link-parser 1.1.x
 
-Parse and stream tabular data from HTML documents using Node.js and [isaacs/sax-js](https://github.com/isaacs/sax-js).
+Parse and stream hyperlinks from HTML documents using Node.js and [isaacs/sax-js](https://github.com/isaacs/sax-js). This library is meant to be used for specialized web page crawlers/scrapers and adhoc queries. It is not intended to be part of a general purpose web indexer.
 
 This readme explains how to use html-link-parser in your code or as a stand-alone program.
 
-> Only supports HTML documents containing hyperlinks elements. Does not support parsing grid or other hyperlinks like elements.
-
-Related projects: [pdf-data-parser](https://github.com/drewletcher/pdf-data-parser#readme), [text-data-parser](https://github.com/drewletcher/text-data-parser#readme), [xlsx-data-parser](https://github.com/drewletcher/xlsx-data-parser#readme)
+Related projects:
+[html-data-parser](https://github.com/drewletcher/html-data-parser#readme) |
+[text-data-parser](https://github.com/drewletcher/text-data-parser#readme) |
+[pdf-data-parser](https://github.com/drewletcher/pdf-data-parser#readme) |
+[xlsx-data-parser](https://github.com/drewletcher/xlsx-data-parser#readme)
 
 ## Installation
 
@@ -26,43 +28,46 @@ npm install html-link-parser
 
 ---
 
-Parse tabular data from an HTML document or URL.
+Parse hyperlinks from an HTML document or URL.
 
 ```bash
-hlp <filename|URL> <output-file> --options=filename.json --heading=string --href=string --text=string --id=name
+hlp <filename|URL> <output-file> --options=hlp.options.json --tag=tag --heading=term --terms=term1,term2,...
 
-  `filename|URL` - path name or URL of HTML file to process, required.
-  `output-file`  - local path name for output of parsed data, default stdout.
-  `--options`    - JSON or JSONC file containing JSON object with hlp options, default: hlp.options.json.
-  `--heading`    - string|regex of heading to find in document that precedes desired data hyperlinks, default none.
-  `--href`       - string|regex of A href attribute(s) to find in document, default none.
-  `--text`       - string|regex of A text contents to find in document, default none.
-  `--id`         - A element id attribute to find in document.
+  `filename|URL` - path name or URL of HTML file to process; required.
+  `output-file`  - local path name for output; default stdout.
+  `--options`    - JSONC file containing JSON object with hlp options; default: hlp.options.json.
+  `--tag`        - HTML section tag that contains desired hyperlinks, e.g. 'NAV'; default: none.
+  `--heading`    - term to match in heading (H1,H2,...) that precedes desired hyperlinks; default: none.
+  `--terms`      - term(s) to match in A attributes and text, separate terms with commas; default: none (all links).
 ```
 
 Note: If the `hlp` command conflicts with another program on your system use `htmllinkparser` instead.
 
 ### Options File
 
-The options file supports options for all html-link-parser modules. Parser will read plain JSON files or JSONC files with Javascript style comments.
+The options file supports all options for html-link-parser modules. Parser will read plain JSON files or JSONC files with Javascript style comments.
 
 ```javascript
 {
   /* HtmlLinkParser options */
 
-  // url - local path name or URL of HTML file to process, required.
+  // url - local path name or URL of HTML file to process; required.
   "url": "",
-  // output - local path name for output of parsed data, default stdout.
+  // output - local path name for output of parsed data; default stdout.
   "output": "",
-  // heading - text of heading to find in document that precedes desired data hyperlinks, default none.
+  // tag - HTML section tag that contains desired hyperlinks, e.g. 'NAV'; default: none.
+  "tag": null,
+  // heading - term to match in heading (H1,H2,...) that precedes desired hyperlinks; default: none.
   "heading": null,
-  // id - hyperlinks element id attribute to find in document.
-  "href": "",
-  // href - string|regex of A href attribute(s) to find in document, default none.
-  "text": "",
-  // text - string|regex of A text contents to find in document, default none.
-  "id": ""
-  // id - A element id attribute to find in document.
+  // terms - array of terms to match in element attributes and text including inner elements of A.
+  "terms": [],
+  // attributes - attributes to match and return from hyperlink elements, inner text is always matched
+  "attributes": [
+    "HREF",
+    "ID",
+    "ALT",
+    "TITLE"
+  ],
 
   /* HTTP options */
   // see HTTP Options below
@@ -70,17 +75,70 @@ The options file supports options for all html-link-parser modules. Parser will 
 }
 ```
 
-Note: Transform property names can be shortened to `hasHeader`, `headers`, `column` and `header`.
+Note: a `term` is a substring or regular expression used in matching element attributes and text.
 
 ### Examples
 
 ```bash
-hlp ./test/data/html/helloworld.html --headers="Greeting"
+hlp ./test/data/html/helloworld.html --heading="Greeting"
 ```
 
 ```bash
-hlp ./test/data/html/helloworld.html --id="cosmic" --headers="BigBang"
+hlp ./test/data/html/helloworld.html --terms="/.*hello.*/i"
 ```
+
+### Link Object Output
+
+Basic output always contains href and text properties.
+
+```json
+{
+  "href": "https://world.com",
+  "text": "Hello World!"
+}
+```
+
+Output where A contains an inner IMG element.
+
+```json
+{
+  "href": "/alabama-votes/register-to-vote",
+  "text": "",
+  "alt": "Voter Registration"
+}
+```
+
+Most output will contain a `tags` property with section tags in hierarchical order and `heading` text of closest heading (H1,H2,...).
+
+```json
+{
+  "href": "http://www.alabamavotes.gov/",
+  "text": "Elections",
+  "tags": [
+    "HEADER",
+    "NAV"
+  ],
+  "heading": "Main navigation"
+}
+```
+
+Output where the hyperlink is in a table cell contains all inner text from the TD elements of the row concatenated into one string and output in the `table` property.
+
+```JSON
+{
+  "href": "/sites/default/files/election-data/2026-04/ALVR-2026_0.xlsx",
+  "text": "",
+  "alt": "Voter Registration Statistics - 2026 PDF",
+  "tags": [
+    "MAIN",
+    "TABLE"
+  ],
+  "heading": "Breadcrumb",
+  "table": "2026 Voter Registration Statistics - 2026 Statistics on the number of registered voters. This file includes year to date figures for 2026."
+}
+```
+
+Other properties that may appear in output objects are `id` and `title`.  These attribute values may come from the A element or its child elements.
 
 ## Developer Guide
 
@@ -88,9 +146,9 @@ hlp ./test/data/html/helloworld.html --id="cosmic" --headers="BigBang"
 
 ### HtmlLinkParser
 
-HtmlLinkParser given a HTML document will output an array of arrays (rows). Additionally, use the streaming class HtmlLinkReader to stream Javascript objects. With default settings HtmlLinkParser will output rows in __all__ hyperlinks found in the document. Using [HtmlLinkParser Options](#html-link-parser-options) `heading`, `id`, `href` and `text` the parser can filter content to retrieve the desired hyperlinks in the document.
+HtmlLinkParser given a HTML document will output an array of link objects. Use the streaming class HtmlLinkReader to stream Javascript objects. With default settings HtmlLinkParser will output __all__ hyperlinks found in the document. Using [HtmlLinkParser Options](#html-link-parser-options) `tag`, `heading`, and `terms` the parser can filter content to retrieve the desired hyperlinks in the document.
 
-The parser uses [isaacs/sax-js](https://github.com/isaacs/sax-js) library to find HTML A (anchor) elements.
+The parser uses [isaacs/sax-js](https://github.com/isaacs/sax-js) library to find HTML A (anchor) and other elements in one pass through the document. Sax does not build an DOM object hierarchy.
 
 See [Notes](#notes) below.
 
@@ -102,8 +160,8 @@ import { HtmlLinkParser } from "html-link-parser";
 let parser = new HtmlLinkParser({url: "filename.html"});
 
 async function parseDocument() {
-  var rows = await parser.parse();
-  // process the rows
+  var links = await parser.parse();
+  // process the links
 }
 ```
 
@@ -117,11 +175,13 @@ HtmlLinkParser constructor takes an options object with the following fields. On
 
 Common Options:
 
-`{String|RegExp} heading` - Heading, H1-H6 element, in the document after which the parser will look for a hyperlinks; optional, default: none. The parser does a string comparison or regexp match looking for first occurrence of `heading` value in a heading element. If neither `heading` or `id` are specified then data output contains all rows from all hyperlinkss found in the document.
+`{String} tag` - An HTML tag to find in the document. Hyperlink A elements that are children of this tag will be processed. This would usually be a section type element; "HEADER", "FOOTER", "NAV", "MAIN", "ASIDE", "ARTICLE", "SECTION", "TABLE"
 
-`{String|RegExp} id` - hyperlinks element id attribute in the document to parse for tabular data; optional, default: none. The parser does a string comparison of the `id` value in hyperlinks elements ID attribute. If neither `heading` or `id` are specified then data output contains all rows from all hyperlinkss found in the document.
+`{String|RegExp} heading` - Heading (H1-H6) element in the document after which the parser will look for a hyperlinks; optional, default: none. The parser does a string comparison or regexp match looking for first occurrence of `heading` value in a heading element. Searching will continue until another heading of equal level or higher is encountered.
 
-`{Boolean} trim` - trim whitespace from output values, default: true.
+`{Array<String|RegExp>} terms` - terms to search for in hyperlink (A) attributes and inner text; optional, default: none. The parser does a string comparison or regexp match on attributes and inner text including child elements.
+
+Notes: If `tag`, `heading` and `terms` options are not specified then all hyperlinks found in the document are output.
 
 ### HTTP Options
 
@@ -140,20 +200,20 @@ HTTP requests are mode using Node.js HTTP modules. See the source code file lib/
 
 ### HtmlLinkReader
 
-HtmlLinkReader is a Node.js stream reader implemented with the Object mode option. It uses HtmlLinkParser to stream one data row (array) per chunk.
+HtmlLinkReader is a Node.js stream reader implemented with the Object mode option. It uses HtmlLinkParser to stream one link object per chunk.
 
 ```javascript
 import { HtmlLinkReader } from "html-link-parser";
 
 let reader = new HtmlLinkReader({url: "filename.html"});
-var rows = [];
+var links = [];
 
-reader.on('data', (row) => {
-  rows.push(row)
+reader.on('data', (link) => {
+  links.push(link)
 });
 
 reader.on('end', () => {
-  // do something with the rows
+  // do something with the links
 });
 
 reader.on('error', (err) => {
@@ -165,24 +225,6 @@ reader.on('error', (err) => {
 
 HtmlLinkReader constructor options are the same as [HtmlLinkParser Options](#html-link-parser-options).
 
-**HTML Document**
-
-```
-County   Precincts  Date/Period   Total
-Dewitt          44  JUL 2023     52,297
-                44  OCT 2023     52,017
-                44  JAN 2024     51,712
-```
-
-**Output**
-
-```
-[ "County", "Precincts", "Date/Period", "Total" ]
-[ "Dewitt", "44", "JUL 2023", "52,297" ]
-[ "Dewitt", "44", "OCT 2023", "52,017" ]
-[ "Dewitt", "44", "JAN 2024", "51,712" ]
-```
-
 ### Example Usage
 
 ```javascript
@@ -190,44 +232,14 @@ import { HtmlLinkReader } from "html-link-parser";
 import { pipeline } from 'node:stream/promises';
 
 let reader = new HtmlLinkReader(options);
-let wrihyperlinks = <some wrihyperlinks that can handle Object Mode data>
+let writer = <some writer that can handle Object Mode data>
 
-await pipeline(reader, wrihyperlinks);
-```
-
-**HTML Document**
-
-```
-District  Precincts    Total
-
-Congressional District 5
-Maricopa        120  403,741
-Pinal            30  102,512
-Total:          150  506,253
-```
-
-**Output**
-
-```
-[ "District", "County", "Precincts", "Total" ]
-[ "Congressional District 5", "Maricopa", "120", "403,741" ]
-[ "Congressional District 5", "Pinal", "30", "102,512" ]
-[ "Congressional District 5", "Total:", "150", "506,253" ]
-```
-
-```javascript
-import { HtmlLinkReader } from "html-link-parser";
-import { pipeline } from 'node:stream/promises';
-
-let reader = new HtmlLinkReader(options);
-let wrihyperlinks = <some wrihyperlinks that can handle Object Mode data>
-
-await pipeline(reader, wrihyperlinks);
+await pipeline(reader, writer);
 ```
 
 ### FormatJSON
 
-The `hlpdataparser` CLI program uses the FormatJSON transform to covert Javascript Objects into strings that can be saved to a file.
+The `hlpdataparser` CLI program uses the FormatJSON transform to stringify the link objects as an array that can be saved to a JSON file.
 
 ```javascript
 import { HtmlLinkReader, FormatJSON } from "html-link-parser";
@@ -243,23 +255,30 @@ await pipeline(reader, transform, process.stdout);
 
 ---
 
-In the source code the html-link-parser.js program and the Javascript files in the /test folder are good examples of using the library modules.
+See the source code for the html-link-parser.js program and the Javascript files in the /test folder for examples of using the library modules.
 
 ### Hello World
 
-[HelloWorld.html](./test/data/html/helloworld.html) is a single page HTML document with the string "Hello, world!" positioned on the page. The HtmlLinkParser output is one object.
+[HelloWorld.html](./test/data/html/helloworld.html) is a simple HTML document with the hyperlink "Hello, world!". The HtmlLinkParser output is one object.
 
-```json
-[
-  ["Hello, world!"]
-]
+```bash
+hlp ./test/data/html/helloworld.html --terms="world"
 ```
 
-Output as JSON objects:
+```html
+<html>
+<body>
+  <a href="https://world.com">Hello World!</a>
+</body>
+</html>
+```
 
 ```json
 [
-  { "Greeting": "Hello, world!" }
+  {
+    "href": "https://world.com",
+    "text": "Hello World!"
+  }
 ]
 ```
 
@@ -267,4 +286,4 @@ Output as JSON objects:
 
 ---
 
-* Does not support identification of headings, etc. by using style information.
+* Does not support identification of elements by using style information.
