@@ -1,8 +1,14 @@
 # html-link-parser 1.1.x
 
-Parse and stream hyperlinks from HTML documents using Node.js and [isaacs/sax-js](https://github.com/isaacs/sax-js). This library is meant to be used for specialized web page crawlers/scrapers and adhoc queries. It is not intended to be part of a general purpose web indexer.
+Parse and stream hyperlinks from HTML documents using Node.js and [isaacs/sax-js](https://github.com/isaacs/sax-js). This library is meant to be used for specialized web page crawlers, data scrapers and adhoc queries. It is not intended to be part of a general purpose web crawling indexer.
 
-This readme explains how to use html-link-parser in your code or as a stand-alone program.
+This readme explains how to use `html-link-parser` in your Javascript code or as a console program using the command line interface (CLI).
+
+> Definitions
+>
+> `hyperlink` refers to A element attributes and text including the attributes and text of any inner child elements, for example IMG and SPAN elements.
+>
+> A `term` is a substring or regular expression used in matching hyperlink attributes and text.
 
 Related projects:
 [html-data-parser](https://github.com/drewletcher/html-data-parser#readme) |
@@ -12,23 +18,23 @@ Related projects:
 
 ## Installation
 
-For use as command line utility. Requires Node.js 18+.
-
-```bash
-npm -g install html-link-parser
-```
-
 For use as module in a Node.js project. See Developers Guide below.
 
 ```bash
 npm install html-link-parser
 ```
 
-## CLI Program
+For use as command line utility. Requires Node.js 18+.
+
+```bash
+npm -g install html-link-parser
+```
+
+## Command Line Interface
 
 ---
 
-Parse hyperlinks from an HTML document or URL.
+Run the program with the following arguments to parse hyperlinks from a local HTML document or HTTP URL.
 
 ```bash
 hlp <filename|URL> <output-file> --options=hlp.options.json --tag=tag --heading=term --terms=term1,term2,...
@@ -37,8 +43,8 @@ hlp <filename|URL> <output-file> --options=hlp.options.json --tag=tag --heading=
   `output-file`  - local path name for output; default stdout.
   `--options`    - JSONC file containing JSON object with hlp options; default: hlp.options.json.
   `--tag`        - HTML section tag that contains desired hyperlinks, e.g. 'NAV'; default: none.
-  `--heading`    - term to match in heading (H1,H2,...) that precedes desired hyperlinks; default: none.
-  `--terms`      - term(s) to match in A attributes and text, separate terms with commas; default: none (all links).
+  `--heading`    - term to match in heading (H1,H2,...) text that precedes desired hyperlinks; default: none.
+  `--terms`      - term(s) to match in HTML attributes and text, separate terms with commas; default: none (all links).
 ```
 
 Note: If the `hlp` command conflicts with another program on your system use `htmllinkparser` instead.
@@ -74,8 +80,6 @@ The options file supports all options for html-link-parser modules. Parser will 
 
 }
 ```
-
-Note: a `term` is a substring or regular expression used in matching element attributes and text.
 
 ### Examples
 
