@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.3
+  - documentation: update README.md
 - version 1.1.2
   - bug fix: fix issue with options file
 - version 1.1.1
