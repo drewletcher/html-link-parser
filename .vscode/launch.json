@@ -129,9 +129,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld al_sos elect",
+      "name": "hlp al_sos elect",
       "program": "html-link-parser.js",
-      "args": [ "./test/data/html/al_sos.html", "--terms=/.*elect.*./i" ],
+      "args": [ "./test/data/html/al_sos.html", "--terms=Elect" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
@@ -140,9 +140,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "hlp helloworld al_sos elect",
+      "name": "hlp al_sos regexp",
       "program": "html-link-parser.js",
-      "args": [ "./test/data/html/al_sos.html", "--terms=Elect" ],
+      "args": [ "./test/data/html/al_sos.html", "--terms=/.*elect.*./i" ],
       "outputCapture": "std",
       "skipFiles": [
         "<node_internals>/**"
