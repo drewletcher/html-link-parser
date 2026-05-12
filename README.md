@@ -8,7 +8,7 @@ This readme explains how to use `html-link-parser` in your Javascript code or as
 >
 > `hyperlink` refers to A element attributes and text including the attributes and text of any inner child elements, for example IMG and SPAN elements.
 >
-> A `term` is a substring or regular expression used in matching hyperlink attributes and text.
+> A `term` is a substring or regular expression used in matching element attributes and text. Parsing returns hyperlinks that match any term.
 
 Related projects:
 [html-data-parser](https://github.com/drewletcher/html-data-parser#readme) |
@@ -32,8 +32,6 @@ npm -g install html-link-parser
 
 ## Command Line Interface
 
----
-
 Run the program with the following arguments to parse hyperlinks from a local HTML document or HTTP URL.
 
 ```bash
@@ -51,7 +49,7 @@ Note: If the `hlp` command conflicts with another program on your system use `ht
 
 ### Options File
 
-The options file supports all options for html-link-parser modules. Parser will read plain JSON files or JSONC files with Javascript style comments.
+The options file supports all options for html-link-parser modules. Parser will read plain JSON files or JSONC files with Javascript style comments. The default name of the options file is `hlp.options.json` located in the current working directory.
 
 ```javascript
 {
@@ -61,7 +59,7 @@ The options file supports all options for html-link-parser modules. Parser will 
   "url": "",
   // output - local path name for output of parsed data; default stdout.
   "output": "",
-  // tag - HTML section tag that contains desired hyperlinks, e.g. 'NAV'; default: none.
+  // tag - HTML section tag that contains desired hyperlinks, e.g. NAV; default: none.
   "tag": null,
   // heading - term to match in heading (H1,H2,...) that precedes desired hyperlinks; default: none.
   "heading": null,
@@ -146,17 +144,9 @@ Other properties that may appear in output objects are `id` and `title`.  These 
 
 ## Developer Guide
 
----
-
-### HtmlLinkParser
-
-HtmlLinkParser given a HTML document will output an array of link objects. Use the streaming class HtmlLinkReader to stream Javascript objects. With default settings HtmlLinkParser will output __all__ hyperlinks found in the document. Using [HtmlLinkParser Options](#html-link-parser-options) `tag`, `heading`, and `terms` the parser can filter content to retrieve the desired hyperlinks in the document.
-
-The parser uses [isaacs/sax-js](https://github.com/isaacs/sax-js) library to find HTML A (anchor) and other elements in one pass through the document. Sax does not build an DOM object hierarchy.
-
-See [Notes](#notes) below.
-
 ### Basic Usage
+
+The parser processes the entire document then returns the hyperlink data as an array of link objects.
 
 ```javascript
 import { HtmlLinkParser } from "html-link-parser";
@@ -165,13 +155,63 @@ let parser = new HtmlLinkParser({url: "filename.html"});
 
 async function parseDocument() {
   var links = await parser.parse();
-  // process the links
+  // process the links array
 }
 ```
 
+### Using Event Interface
+
+Listen to parser events and process each hyperlink object as it is parsed from the document.
+
+```javascript
+import { HtmlLinkParser } from "html-link-parser";
+
+let parser = new HtmlLinkParser({url: "filename.html"});
+
+parser.on('head', (head) => {
+  // zero or one event per document
+  // triggered by /HEAD end tag.
+  // head object contains { URL, title, redirected } properties
+})
+
+parser.on('data', (link) => {
+  // a single link object
+  // process the link object
+});
+
+parser.on('end', () => {
+});
+
+parser.on('error', (err) => {
+  // log error
+})
+```
+
+### Using Stream Interface
+
+Process hyperlink objects as they are parsed from the document using the NodeJS Stream interface.
+
+```javascript
+import { HtmlLinkReader } from "html-link-parser";
+import { pipeline } from 'node:stream/promises';
+
+let reader = new HtmlLinkReader(options);
+let writer = '<writer that can handle Object Mode>'
+
+await pipeline(reader, writer);
+```
+
+## Class HtmlLinkParser
+
+`HtmlLinkParser` given a HTML document will output an array of link objects. Use the streaming class `HtmlLinkReader` to stream Javascript objects. With default settings `HtmlLinkParser` will output __all__ hyperlinks found in the document. Using [HtmlLinkParser Options](#html-link-parser-options) `tag`, `heading`, and `terms` the parser can filter content to retrieve the desired hyperlinks in the document.
+
+The parser uses [isaacs/sax-js](https://github.com/isaacs/sax-js) library to find HTML A (anchor) and other elements in one pass through the document. Sax does not build an DOM object hierarchy.
+
+See [Notes](#notes) below.
+
 ### HtmlLinkParser Options
 
-HtmlLinkParser constructor takes an options object with the following fields. One of `url` or `data` arguments is required.
+`HtmlLinkParser` constructor takes an options object with the following fields. One of `url` or `data` arguments is required.
 
 `{String|URL} url` - The local path or URL of the HTML document.
 `{String|Uint8Array} data` - HTML document in a string.
@@ -198,50 +238,15 @@ HTTP requests are mode using Node.js HTTP modules. See the source code file lib/
 `{Array}  http.cookies` - array of HTTP cookie strings
 `{String} http.auth` - string for Basic Authentication (Authorization header), i.e. "user:password".
 
-## Streaming Usage
+## Class HtmlLinkReader
 
----
-
-### HtmlLinkReader
-
-HtmlLinkReader is a Node.js stream reader implemented with the Object mode option. It uses HtmlLinkParser to stream one link object per chunk.
-
-```javascript
-import { HtmlLinkReader } from "html-link-parser";
-
-let reader = new HtmlLinkReader({url: "filename.html"});
-var links = [];
-
-reader.on('data', (link) => {
-  links.push(link)
-});
-
-reader.on('end', () => {
-  // do something with the links
-});
-
-reader.on('error', (err) => {
-  // log error
-})
-```
+`HtmlLinkReader` is a Node.js stream reader implemented with the Object mode option. It uses `HtmlLinkParser` event interface to stream one link object per chunk.
 
 ### HtmlLinkReader Options
 
-HtmlLinkReader constructor options are the same as [HtmlLinkParser Options](#html-link-parser-options).
+`HtmlLinkReader` constructor options are the same as [HtmlLinkParser Options](#html-link-parser-options).
 
-### Example Usage
-
-```javascript
-import { HtmlLinkReader } from "html-link-parser";
-import { pipeline } from 'node:stream/promises';
-
-let reader = new HtmlLinkReader(options);
-let writer = <some writer that can handle Object Mode data>
-
-await pipeline(reader, writer);
-```
-
-### FormatJSON
+## Class FormatJSON
 
 The `hlpdataparser` CLI program uses the FormatJSON transform to stringify the link objects as an array that can be saved to a JSON file.
 
@@ -259,11 +264,11 @@ await pipeline(reader, transform, process.stdout);
 
 ---
 
-See the source code for the html-link-parser.js program and the Javascript files in the /test folder for examples of using the library modules.
+See the source code for the `html-link-parser.js` program and the Javascript files in the `/test` folder for examples of using the library modules.
 
 ### Hello World
 
-[HelloWorld.html](./test/data/html/helloworld.html) is a simple HTML document with the hyperlink "Hello, world!". The HtmlLinkParser output is one object.
+[HelloWorld.html](./test/data/html/helloworld.html) is a simple HTML document with the hyperlink "Hello, world!". The `HtmlLinkParser` output is one object.
 
 ```bash
 hlp ./test/data/html/helloworld.html --terms="world"
