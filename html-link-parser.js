@@ -118,6 +118,12 @@ async function parseArgs() {
     let reader = new HtmlLinkReader(options);
     pipes.push(reader);
 
+    reader.on("head", (head) => {
+      if (stdoutput) {
+        console.log("head: ".blue + JSON.stringify(head));
+      }
+    });
+
     let formatter = new FormatJSON(options);
     pipes.push(formatter);
 
