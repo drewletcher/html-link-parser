@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.5
+  - enhancement: follow HTTP 307,308 redirects
 - version 1.1.4
   - enhancement: add 'head' event for document with { url, title, redirected } properties
 - version 1.1.3
