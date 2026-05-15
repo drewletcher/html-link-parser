@@ -6,6 +6,7 @@ import HtmlLinkParser from "../lib/HtmlLinkParser.js";
 import fs from "node:fs/promises";
 import path from "node:path";
 import compareFiles from "./_compareFiles.js";
+import colors from 'colors';
 
 async function test(options) {
   try {
@@ -24,7 +25,8 @@ async function test(options) {
     let parser = new HtmlLinkParser(options);
 
     parser.on("head", (head) => {
-      console.log("head: ".yellow + JSON.stringify(head).yellow);
+      if (head.redirect)
+        console.log("head: ".yellow + JSON.stringify(head).yellow);
     });
 
     let rows = await parser.parse();

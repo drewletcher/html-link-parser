@@ -8,6 +8,7 @@ import { finished } from 'stream/promises';
 import fs from "node:fs";
 import path from "node:path";
 import compareFiles from "./_compareFiles.js";
+import colors from 'colors';
 
 async function test(options) {
   let outputName = path.parse(options.url || options.data).name;
@@ -20,7 +21,8 @@ async function test(options) {
   let reader = new HtmlLinkReader(options);
 
   reader.on("head", (head) => {
-    console.log("head: ".yellow + JSON.stringify(head).yellow);
+    if (head.redirect)
+      console.log("head: ".yellow + JSON.stringify(head).yellow);
   });
 
   let transform = new FormatJSON();
@@ -73,6 +75,7 @@ async function test2(options) {
   if (await test({ url: "http://www.alabamavotes.gov/", terms: [ /(.*vote.*)/i, /(.*elect.*)/i ] })) return 1;
 
   if (await test({ url: "https://www.sos.alabama.gov/alabama-votes", terms: [ /(.*vote.*)/i, /(.*elect.*)/i ] })) return 1;
+
 
   if (await test2({ url: "https://www.sos.alabama.gov/alabama-votes/voter/election-information" })) return 1;
 
