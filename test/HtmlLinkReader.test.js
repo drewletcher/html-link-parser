@@ -19,6 +19,10 @@ async function test(options) {
 
   let reader = new HtmlLinkReader(options);
 
+  reader.on("head", (head) => {
+    console.log("head: ".yellow + JSON.stringify(head).yellow);
+  });
+
   let transform = new FormatJSON();
 
   let outputFile = "./test/output/HtmlLinkReader/" + outputName + ".json";

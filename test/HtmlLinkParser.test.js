@@ -22,6 +22,11 @@ async function test(options) {
     console.log("output: " + outputFile);
 
     let parser = new HtmlLinkParser(options);
+
+    parser.on("head", (head) => {
+      console.log("head: ".yellow + JSON.stringify(head).yellow);
+    });
+
     let rows = await parser.parse();
 
     await fs.mkdir(path.dirname(outputFile), { recursive: true });
