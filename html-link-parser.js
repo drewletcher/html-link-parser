@@ -119,9 +119,7 @@ async function parseArgs() {
     pipes.push(reader);
 
     reader.on("head", (head) => {
-      if (stdoutput) {
-        console.log("head: ".blue + JSON.stringify(head));
-      }
+      console.log("head: ".yellow + JSON.stringify(head).yellow);
     });
 
     let formatter = new FormatJSON(options);

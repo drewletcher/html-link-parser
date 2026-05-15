@@ -169,14 +169,13 @@ import { HtmlLinkParser } from "html-link-parser";
 let parser = new HtmlLinkParser({url: "filename.html"});
 
 parser.on('head', (head) => {
+  // triggered by /HEAD end tag
   // zero or one event per document
-  // triggered by /HEAD end tag.
-  // head object contains { URL, title, redirected } properties
+  // see head object below
 })
 
 parser.on('data', (link) => {
-  // a single link object
-  // process the link object
+  // link is a single link object
 });
 
 parser.on('end', () => {
@@ -185,6 +184,15 @@ parser.on('end', () => {
 parser.on('error', (err) => {
   // log error
 })
+```
+
+```javascript
+head = {
+  url,       // starting url
+  title,     // text from <head><title> element
+  redirect,  // HTTP status code of last redirect - 301, 302, 307 or 308
+  location   // URL of last redirect
+}
 ```
 
 ### Using Stream Interface
