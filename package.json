@@ -16,7 +16,7 @@
     "node": ">=18.0.0"
   },
   "main": "lib/index.js",
-  "types": "./types/index.d.ts",
+  "types": "./types/lib/index.d.ts",
   "scripts": {
     "test": "testrunner.bat"
   },
