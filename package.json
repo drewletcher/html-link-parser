@@ -1,13 +1,15 @@
 {
   "name": "html-link-parser",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Parse, search and stream hyperlinks from an HTML document using Node.js and isaacs/sax-js.",
   "author": "Drew O. Letcher",
   "license": "MIT",
   "keywords": [
     "html",
-    "hyperlinks",
-    "parser"
+    "hyperlink",
+    "parser",
+    "crawler",
+    "scraper"
   ],
   "type": "module",
   "engines": {

@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.6
+  - refactor: parser 'head' event properties
 - version 1.1.5
   - enhancement: follow HTTP 307,308 redirects
 - version 1.1.4
