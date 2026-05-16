@@ -1,6 +1,6 @@
 [
   {
-    "href": "/contact/braille_voter_request_form",
+    "href": "https://www.sos.alabama.gov/contact/braille_voter_request_form",
     "text": "Braille Voter Guide"
   },
   {
@@ -82,7 +82,7 @@
     "heading": "Main navigation"
   },
   {
-    "href": "/alabama-votes",
+    "href": "https://www.sos.alabama.gov/alabama-votes",
     "text": "Alabama Votes",
     "tags": [
       "SECTION"
@@ -90,7 +90,7 @@
     "heading": "Main navigation"
   },
   {
-    "href": "/alabama-votes/faqs",
+    "href": "https://www.sos.alabama.gov/alabama-votes/faqs",
     "text": "FAQ",
     "tags": [
       "SECTION",
@@ -99,7 +99,7 @@
     "heading": "Alabama Votes Menu"
   },
   {
-    "href": "/alabama-votes/voter/election-information",
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/election-information",
     "text": "Voters",
     "tags": [
       "SECTION",
@@ -108,7 +108,7 @@
     "heading": "Alabama Votes Menu"
   },
   {
-    "href": "/alabama-votes/candidates/candidate-resources",
+    "href": "https://www.sos.alabama.gov/alabama-votes/candidates/candidate-resources",
     "text": "Candidates",
     "tags": [
       "SECTION",
@@ -117,7 +117,7 @@
     "heading": "Alabama Votes Menu"
   },
   {
-    "href": "/alabama-votes/pac-resources",
+    "href": "https://www.sos.alabama.gov/alabama-votes/pac-resources",
     "text": "PACs",
     "tags": [
       "SECTION",
@@ -126,7 +126,7 @@
     "heading": "Alabama Votes Menu"
   },
   {
-    "href": "/alabama-votes/contact-us",
+    "href": "https://www.sos.alabama.gov/alabama-votes/contact-us",
     "text": "Contact Us",
     "tags": [
       "SECTION",
@@ -145,7 +145,7 @@
   },
   {
     "alt": "Voter Registration",
-    "href": "/alabama-votes/register-to-vote",
+    "href": "https://www.sos.alabama.gov/alabama-votes/register-to-vote",
     "text": "Voter Registration / Update Registration",
     "tags": [
       "SECTION"
@@ -154,7 +154,7 @@
   },
   {
     "alt": "Election Information Icon",
-    "href": "/alabama-votes/voter/election-information",
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/election-information",
     "text": "Election Information",
     "tags": [
       "SECTION"
@@ -170,7 +170,7 @@
     "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/absentee-voting",
+    "href": "https://www.sos.alabama.gov/alabama-votes/absentee-voting",
     "text": "Absentee Voting",
     "tags": [
       "SECTION"
@@ -187,7 +187,7 @@
     "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/voter/ballot-measures/statewide",
+    "href": "https://www.sos.alabama.gov/alabama-votes/voter/ballot-measures/statewide",
     "text": "Proposed Statewide Constitutional Amendments",
     "tags": [
       "SECTION"
@@ -196,7 +196,7 @@
   },
   {
     "alt": "Upcoming Elections Icon",
-    "href": "/alabama-votes/upcoming-elections",
+    "href": "https://www.sos.alabama.gov/alabama-votes/upcoming-elections",
     "text": "Upcoming Elections",
     "tags": [
       "SECTION"
@@ -204,7 +204,7 @@
     "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/state-district-maps",
+    "href": "https://www.sos.alabama.gov/alabama-votes/state-district-maps",
     "text": "State District Maps",
     "tags": [
       "SECTION"
@@ -212,7 +212,7 @@
     "heading": "Alabama Votes"
   },
   {
-    "href": "/alabama-votes/campaign-finance-reports",
+    "href": "https://www.sos.alabama.gov/alabama-votes/campaign-finance-reports",
     "text": "Campaign Finance",
     "tags": [
       "SECTION"
@@ -221,7 +221,7 @@
   },
   {
     "alt": "Photo Voter ID Icon",
-    "href": "/alabama-votes/photo-voter-id",
+    "href": "https://www.sos.alabama.gov/alabama-votes/photo-voter-id",
     "text": "Photo Voter ID",
     "tags": [
       "SECTION"
