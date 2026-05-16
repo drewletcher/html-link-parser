@@ -1,5 +1,8 @@
 # html-link-parser Change Log
 
+- version 1.1.7
+  - enhancement: expand relative URLs to absolute
+  - refactor: 'head' output formatting
 - version 1.1.6
   - refactor: parser 'head' event properties
 - version 1.1.5
