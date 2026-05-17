@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.9
+  - refactor: refactor sax options; trim and normalize whitespace
 - version 1.1.8
   - refactor: link.table property separate cell text with semicolons when appending
   - cleanup: comment out console.debug message
