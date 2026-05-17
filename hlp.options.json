@@ -10,7 +10,13 @@
     "TITLE"
   ],
   "terms": [],
-  "trim": true,
+  "sax": {
+    "trim": true,
+    "normalize": true,
+    "lowercase": false,
+    "xmlns": false,
+    "position": false
+  },
   "http": {
     "method": "GET",
     "headers": {},

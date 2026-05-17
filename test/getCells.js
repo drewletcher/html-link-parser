@@ -20,7 +20,11 @@ var output = fs.openSync(outputFile, "w");
 //// SAX parser
 const strict = false; // set to false for HTML mode
 const options = {
-  "trim": true
+  "trim": true,
+  "normalize": true,
+  "lowercase": false,
+  "xmlns": false,
+  "position": false
 };
 
 var isLink = false;

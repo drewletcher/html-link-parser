@@ -19,7 +19,11 @@ let output = fs.openSync(outFile, "w");
 
 const strict = false; // set to false for HTML mode
 const options = {
-  "trim": true
+  "trim": true,
+  "normalize": true,
+  "lowercase": false,
+  "xmlns": false,
+  "position": false
 };
 
 // stream usage

@@ -20,8 +20,7 @@ colors.enable();
 // default program options
 var options = {
   url: "",
-  output: "",
-  trim: true
+  output: ""
 }
 
 /**
@@ -30,8 +29,13 @@ var options = {
  *   example ["node.exe", "html-link-parser.js", <filename.html|URL>, <output>, --tag="HTML TAG" --heading="title" --terms="term1,term2,..." ]
  */
 async function parseArgs() {
-  let clOptions = {}; // command line options
-  let ofOptions = {}; // options file options
+
+  // command line options
+  let clOptions = {
+    "sax": {}
+  };
+  // options file
+  let ofOptions = {};
   let optionsfile = "hlp.options.json";
 
   let i = 2;
@@ -56,7 +60,9 @@ async function parseArgs() {
       else if (nv[ 0 ] === "--terms")
         clOptions.terms = nv[ 1 ].split(",");
       else if (nv[ 0 ] === "--trim")
-        clOptions.trim = nv[ 1 ] === "true";
+        clOptions.sax.trim = (nv[ 1 ] === "true");
+      else if (nv[ 0 ] === "--normalize")
+        clOptions.sax.normalize = (nv[ 1 ] === "true");
     }
     ++i;
   }
@@ -70,7 +76,14 @@ async function parseArgs() {
         allowTrailingComma: true,
         allowEmptyContent: false
       };
-      ofOptions = parse(opts, perrors, poptions)
+      ofOptions = parse(opts, perrors, poptions);  // JSONC parsing
+      if (perrors.length) {
+        console.error("Error parsing options file: " + optionsfile);
+        perrors.forEach((err) => {
+          console.error(`  Error at offset ${err.offset}: ${err.error}`);
+        });
+        //process.exit(1);
+      }
     }
     catch (err) {
       if (err.code !== 'ENOENT' || optionsfile != "hlp.options.json")

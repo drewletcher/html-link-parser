@@ -9,7 +9,11 @@ import fs from "node:fs/promises";
 
 const strict = false; // set to false for html-mode
 const options = {
-  "trim": true
+  "trim": true,
+  "normalize": true,
+  "lowercase": false,
+  "xmlns": false,
+  "position": false
 };
 
 const parser = sax.parser(strict, options);

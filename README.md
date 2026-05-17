@@ -124,7 +124,7 @@ Most output will contain a `tags` property with section tags in hierarchical ord
 }
 ```
 
-Output where the hyperlink is in a table cell contains all inner text from the TD elements of the row concatenated into one string and output in the `table` property.
+Output where the hyperlink is in a table cell contains all inner text from the TD elements of the row concatenated into one string separated by semicolon `;` and output in the `table` property.
 
 ```JSON
 {
@@ -136,7 +136,7 @@ Output where the hyperlink is in a table cell contains all inner text from the T
     "TABLE"
   ],
   "heading": "Breadcrumb",
-  "table": "2026 Voter Registration Statistics - 2026 Statistics on the number of registered voters. This file includes year to date figures for 2026."
+  "table": "2026; Voter Registration Statistics - 2026; Statistics on the number of registered voters. This file includes year to date figures for 2026."
 }
 ```
 
