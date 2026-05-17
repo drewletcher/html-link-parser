@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.10
+  - bug fix: decode absolute URL generated from HREF
 - version 1.1.9
   - refactor: refactor sax options; trim and normalize whitespace
 - version 1.1.8
