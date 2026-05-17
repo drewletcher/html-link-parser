@@ -76,7 +76,6 @@ async function test2(options) {
 
   if (await test({ url: "https://www.sos.alabama.gov/alabama-votes", terms: [ /(.*vote.*)/i, /(.*elect.*)/i ] })) return 1;
 
-
   if (await test2({ url: "https://www.sos.alabama.gov/alabama-votes/voter/election-information" })) return 1;
 
   if (await test2({ url: "https://www.sos.alabama.gov/alabama-votes/voter/election-information/2024" })) return 1;
