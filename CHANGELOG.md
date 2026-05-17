@@ -1,5 +1,8 @@
 # html-link-parser Change Log
 
+- version 1.1.8
+  - refactor: link.table property separate cell text with semicolons when appending
+  - cleanup: comment out console.debug message
 - version 1.1.7
   - enhancement: expand relative URLs to absolute
   - refactor: 'head' output formatting
