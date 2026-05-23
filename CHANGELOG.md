@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.12
+  - cleanup: bump version
 - version 1.1.11
   - refactor: reuse parser instance with multiple url's
 - version 1.1.10
