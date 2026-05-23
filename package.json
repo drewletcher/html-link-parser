@@ -24,7 +24,10 @@
     "hlp": "html-link-parser.js",
     "htmllinkparser": "html-link-parser.js"
   },
-  "repository": "git@github.com/drewletcher/html-link-parser.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drewletcher/html-link-parser.git"
+  },
   "homepage": "https://github.com/drewletcher/html-link-parser#readme",
   "bugs": "https://github.com/drewletcher/html-link-parser/issues",
   "dependencies": {
