@@ -47,6 +47,16 @@
     },
     {
       "type": "node",
+      "request": "launch",
+      "name": "HtmlLinkParser reuse",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/test/HtmlLinkParser_reuse.test.js",
+      "runtimeArgs": ["--use-system-ca"]
+    },
+    {
+      "type": "node",
       "name": "HtmlLinkReader",
       "program": "${workspaceFolder}/test/HtmlLinkReader.test.js",
       "runtimeArgs": ["--use-system-ca"],
