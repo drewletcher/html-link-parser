@@ -18,7 +18,7 @@ async function test(options) {
 
     await fs.mkdir(path.dirname(outputFile), { recursive: true });
     let fh = await fs.open(outputFile, "w");
-    fh.write('[\n');
+    await fh.write('[\n');
 
     let parser = new HtmlLinkParser(options);
 
@@ -27,8 +27,8 @@ async function test(options) {
         console.log("head: ".yellow + JSON.stringify(head).yellow);
     });
 
-    parser.on("data", (data) => {
-      fh.write(JSON.stringify(data) + ",\n");
+    parser.on("data", async (data) => {
+      await fh.write(JSON.stringify(data) + ",\n");
     });
 
     parser.on("end", () => {
@@ -42,12 +42,12 @@ async function test(options) {
     // parse each url in the list
     for (let url of options.urls) {
       console.log("parsing: " + url);
-      fh.write('"parsing: ' + url + '",\n');
+      await fh.write('"parsing: ' + url + '",\n');
       await parser.parse(url);
     }
 
-    fh.write('"fini"\n]\n');
-    fh.close();
+    await fh.write('"fini"\n]\n');
+    await fh.close();
     let expectedFile = outputFile.replace("/output/", "/expected/");
     let exitCode = compareFiles(outputFile, expectedFile, 2);
     return exitCode;
