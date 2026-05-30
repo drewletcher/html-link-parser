@@ -1,6 +1,6 @@
 {
   "name": "html-link-parser",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "Parse, search and stream hyperlinks from an HTML document using Node.js and isaacs/sax-js.",
   "author": "Drew O. Letcher",
   "license": "MIT",

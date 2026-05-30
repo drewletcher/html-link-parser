@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.13
+  - bug fix: table text was bleeding into next links
 - version 1.1.12
   - cleanup: bump version
 - version 1.1.11
