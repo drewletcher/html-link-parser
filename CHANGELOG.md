@@ -1,9 +1,11 @@
 # html-link-parser Change Log
 
+- version 1.1.15
+  - project: bump version
 - version 1.1.13
   - bug fix: table text was bleeding into next links
 - version 1.1.12
-  - cleanup: bump version
+  - project: bump version
 - version 1.1.11
   - refactor: reuse parser instance with multiple url's
 - version 1.1.10
@@ -33,4 +35,4 @@
   - refactor: refactor args and matching logic
 
 - version 1.1.0
-  - update: initial project setup, based on html-link-parser
+  - project: initial project setup, based on html-link-parser
