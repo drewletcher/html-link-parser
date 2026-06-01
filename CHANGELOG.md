@@ -1,5 +1,7 @@
 # html-link-parser Change Log
 
+- version 1.1.16
+  - coding: add robots directives from X-Robots-Tag and meta name="robots" to `head` event
 - version 1.1.15
   - project: bump version
 - version 1.1.13
